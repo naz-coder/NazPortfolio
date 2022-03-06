@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Fira+Sans&family=Josefin+Sans:wght@300&family=Zen+Kurenaido&display=swap');
+
+body {
+  margin: 0;
+  font-family:      'Archivo Narrow', sans-serif;
+  font-family:      'Fira Sans', sans-serif;
+  font-family:      'Josefin Sans', sans-serif;
+  font-family:      'Zen Kurenaido', sans-serif;
+  overflow:         scroll;
+  background-color: #ffffff;
+}
+
+body::-webkit-scrollbar{
+  display:          none;
+}
+
+/* header */
+.header{
+  padding:               1rem 8rem 1rem 8rem;
+  background:          #111111;
+  color:               #ffffff;
+  display:               grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  font-weight:           900;
+}
+
+.header img{
+  border-radius:         2rem;
+}
+
+.header img:hover{
+  cursor:                pointer;
+  opacity:               0.5;
+  translate:             3s;
+}
+
+
+.header li{
+  list-style:            none;
+  display:               inline;
+  padding-right:         1rem;
+}
+
+.header li:hover{
+  cursor:                pointer;
+  color:               #888888;
+
+}
+
+.header .nav-socials{
+  margin-top:         -0.5rem;
+  margin-bottom:      -1rem;
+  font-size:          1.5rem;
+}
+
+
+
+
+
+/* MEDIA QUERY */
+@media (max-width: 960px) {
+}
+
+
+
+
+@media (max-width: 768px){
+}
+
+
+
+
+@media (max-width: 320px){
+}
