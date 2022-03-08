@@ -1,3 +1,5 @@
+import Dropdown from './Dropdown'
+import {Link} from 'react-router-dom'
 import whiteLogoo from '../images/whiteLogoo.jpg'
 import {FaTwitter} from 'react-icons/fa'
 import {FaWhatsapp} from 'react-icons/fa'
@@ -19,6 +21,7 @@ const Header = () => {
           <li>Contact</li>
         </ul>
       </nav>
+      <div className='select'>{<Dropdown/>} </div>
       <nav className='nav-socials'>
         <ul>
           <li><FaTwitter/></li>
@@ -28,6 +31,7 @@ const Header = () => {
           <li><FaInstagram /></li>
         </ul>
       </nav>
+      <div className='connect-link'><Link to="/footer">Connect</Link></div>
     </div>
   )
 }
