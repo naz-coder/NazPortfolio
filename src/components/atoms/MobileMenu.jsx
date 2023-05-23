@@ -35,26 +35,18 @@ export default MobileMenu
 
 
 export const MobileMenuStyle = styled.div`
-        /* position: absolute;
-        top: 0;
-        left: 0;
-        background: #f2f2f2;
-        width: 100%;
-        height: 100%;
-        border-right: #ccc 1px solid;
-        opacity: 0.9;
-        padding: 30px;
-        transform: translateX(-500px);
-        transition: transform 0.9s ease-in-out;
-        color: #000000; */
-
-        /* background-color: rgba(0, 0, 0, 0.6); */
-    background: #f2f2f2;
-    width: 100%;
-    height: 100%;
-    margin: -0.01rem;
-    top: 0;
-    left: 0;
+@media (max-width: 768px){
+    position: absolute;
+    a{
+        text-decoration: none;
+    }
+     .mobile_menu_outter{
+      background: #f2f2f2;
+    width: 50vw;
+    height: 100vh;
+    /* margin: -0.01rem; */
+    /* top: 0;
+    left: 0; */
     overflow-y: hidden;
     overflow-x: hidden;
     transform: translate(-50%, -50%);
@@ -65,45 +57,45 @@ export const MobileMenuStyle = styled.div`
     border-right: #ccc 1px solid;
     opacity: 0.9;
     padding-top: 1rem;
-    padding-left: 10rem;
-    transform: translateX(-500px);
+    padding-left: 7rem;
+    padding-right: 5rem;
+    transform: translate(-500px);
     transition: transform 0.5s ease-in-out;
+    z-index: 1;
+    top: 0;
+    left: 45%;
+    color: #000000;
+  } 
 
-    a{
-        text-decoration: none;
-    }
-     .mobile_menu_outter{
-        position: fixed;
-        z-index: 1;
-        top: 40%;
-        left: 63%;
-        transform: translate(-50%, -50%);
-        color: #000000;
-    } 
+  .mobile_menu_item{
+    padding-top: 50px;
+
+  }
 
     .mobile_menu_item ul li{
-        padding: 20px;
-        border-bottom: #ccc solid 1px;
-        font-size: 20px;
-        width: 250%;
+      padding: 17px;
+      border-bottom: #ccc solid 1px;
+      font-size: 20px;
+      width: 100vw;
     }
 
     .mobile_menu_socials ul{
-        display: flex;
-        flex-direction: row;
-        column-gap: 15%;
-        /* margin-left: 4rem; */
-
+      display: flex;
+      flex-direction: row;
+      column-gap: 5%;
+      margin-left: 1.3rem;
     }
 
     .mobile_menu_socials  li a{
-        font-size: 1.5rem;
-         color: #000000;
-
+      font-size: 1.5rem;
+      color: #000000;
     }
 
     .mobile_menu_socials a:hover, .mobile-menu:hover{
-        cursor: pointer;
-        color:#666666;
-    }
+      cursor: pointer;
+      color:#666666;
+    } 
+  }
+
+
 `

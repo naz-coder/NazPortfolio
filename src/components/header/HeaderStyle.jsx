@@ -89,6 +89,7 @@ li:hover{
 
 @media (max-width: 768px){
 padding: 1rem 4.5rem 0rem 4.5rem;
+border-radius: 0rem;
 
 /* Latest */
 .nav_menu{

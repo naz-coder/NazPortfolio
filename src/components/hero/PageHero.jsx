@@ -13,8 +13,8 @@ const PageHero = () => {
                     about building problem solving products for companies and 
                     individuals.
                 </p>
-                <button>Contact me</button>
-                <button>Download CV</button>
+                <button className='contact-btn'>Contact me</button>
+                <button className='download-btn'>Download CV</button>
             </div>
             <div className="hero_img">
                 <img src={hero} alt='naz-coder image'/>
