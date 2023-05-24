@@ -8,9 +8,15 @@ body {
   font-family:      'Zen Kurenaido', sans-serif;
   overflow:         scroll;
   /* background-color: #ece1e1; */
+  /* background-color: green; */
+
 }
 
 body::-webkit-scrollbar{
   display:          none;
+}
+
+a{
+  text-decoration: none;
 }
 
