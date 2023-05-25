@@ -71,6 +71,10 @@ const AboutMe = () => {
                 the zeal to mentor newbies in tech, so, I see myself trying out managerial roles and building a community of vibrant amazing techies 
                 producing tech products that impact the world in diverse ways. That's my top career goal!
                 </p>
+                <div className='hire-me'>
+                  <p className='action-text'>Let's work together.</p>
+                  <button className='contact-btn'>Hire me</button>
+                </div>
             </div>
             </div>
         </div>
