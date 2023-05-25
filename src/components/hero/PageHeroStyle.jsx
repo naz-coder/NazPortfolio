@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const PageHeroStyle = styled.div`
-    margin: 6vh 12vw;
+    margin: 15vh 12vw;
 
     .hero-container{
         display: flex;
@@ -44,7 +44,7 @@ export const PageHeroStyle = styled.div`
         text-transform: capitalize;
         font-size: 6rem;
         line-height: 6rem;
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
         color: #521d06;
     }
 
@@ -61,7 +61,7 @@ export const PageHeroStyle = styled.div`
     background-position: right bottom;
     transition: all 0.5s ease-in;
     padding: 1rem 2.5rem;
-    margin-top: 1rem;
+    margin-top: 3rem;
     margin-right: 2rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
@@ -156,6 +156,10 @@ export const PageHeroStyle = styled.div`
         font-size: 4rem;
         line-height: 4rem;
         margin-bottom: 1rem;
+    }
+
+    button.contact-btn{
+    margin-top: 1.7rem;
     }
 
 }

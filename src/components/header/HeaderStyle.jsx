@@ -7,7 +7,6 @@ export const HeaderStyle = styled.div`
   font-weight:           900;
   font-size: 1rem;
   border-radius: 0rem 0rem 1rem 1rem;
-
 a{
     text-decoration: none;
 }
