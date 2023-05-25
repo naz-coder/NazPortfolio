@@ -10,7 +10,7 @@ export const PageHeroStyle = styled.div`
     }
 
     .description{
-        margin-right: 17.5vw;
+        margin-right: 5.5vw;
         animation: 2s anim-lineUp ease-out 1;
     }
     @keyframes anim-lineUp {
@@ -103,7 +103,6 @@ export const PageHeroStyle = styled.div`
     cursor: pointer;
 }
 .hero-img{
-    background-color: #521d06;
     padding: 2rem;
     animation: wiggle 5s linear infinite;
     align-items: center;
@@ -112,9 +111,11 @@ export const PageHeroStyle = styled.div`
 
 .hero-img img{
     width: 100%;
-    max-width: 1000px;
+    max-width: 800px;
     height: auto;
 }
+
+
 
 @keyframes wiggle {
   0%, 7% {
@@ -144,7 +145,7 @@ export const PageHeroStyle = styled.div`
     margin: 6vh 6vw;
 
     .description{
-        margin-right: 12.5vw;
+        margin-right: 5.5vw;
     }
 
     .section-title{
@@ -203,17 +204,16 @@ font-size: 1.2rem;
 }
 
 .hero-img{
-background-color: #521d06;
 padding: 2rem;
-animation: none;
 display: flex;
-
+margin-top: -2rem;
 }
 
 .hero-img img{
-/* width: 100%;
-max-width: 1000px;
-height: auto; */
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+}
 }
 
 @media (max-width: 740px){
@@ -270,6 +270,6 @@ margin: 2rem 1rem;
     margin-right: 5%;
 }
 }
-}
+
 
 `

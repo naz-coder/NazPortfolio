@@ -1,6 +1,6 @@
 import React from 'react'
 import {PageHeroStyle} from "./PageHeroStyle"
-import nazaa from "../../assets/nazaa.png"
+import favsHero from "../../assets/favsHero.png"
 import heroImage from "../../assets/heroImage.png"
 import FavourChinazaAnajembaResume from "../../assets/FavourChinazaAnajembaResume.pdf";
 
@@ -24,7 +24,7 @@ const PageHero = () => {
                 </div>
             </div>
             <div className="hero-img">
-                <img src={nazaa} alt='naz-coder image'/>
+                <img src={favsHero} alt='naz-coder image'/>
             </div>
         </div>
     </PageHeroStyle>
