@@ -40,15 +40,15 @@ const Header = () => {
       </nav>
       <nav className='nav_socials'>
         <ul>
-          <li><a href="https://www.twitter.com/TechSiz"><FaTwitter/></a></li>
-          <li><a href="https://wa.me/2348167265619"><FaWhatsapp/></a></li>
-          <li><a href="https://www.linkedin.com/in/favour-naza-anajemba-02a156196"><FaLinkedinIn/></a></li>
-          <li><a href="https://github.com/naz-coder"><FaGithub/></a></li>
-          <li><a href="https://wa.me/2348167265619"><FaInstagram/></a></li>
+          <li><a href="https://www.twitter.com/TechSiz" target='blank'><FaTwitter/></a></li>
+          <li><a href="https://wa.me/2348167265619" target='blank'><FaWhatsapp/></a></li>
+          <li><a href="https://www.linkedin.com/in/favour-naza-anajemba-02a156196" target='blank'><FaLinkedinIn/></a></li>
+          <li><a href="https://github.com/naz-coder" target='blank'><FaGithub/></a></li>
+          <li><a href="https://wa.me/2348167265619" target='blank'><FaInstagram/></a></li>
         </ul>
       </nav>
       <div className='mobile-menu'>
-        <a href="https://github.com/naz-coder"><FaGithub className='github_menu'/></a>
+        <a href="https://github.com/naz-coder" target='blank'><FaGithub className='github_menu'/></a>
         <CgMenuHotdog onClick={toggleMenu}/>
       </div>
 
