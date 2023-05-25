@@ -37,16 +37,15 @@ export default MobileMenu
 export const MobileMenuStyle = styled.div`
 @media (max-width: 768px){
     position: absolute;
+
     a{
         text-decoration: none;
     }
-     .mobile_menu_outter{
-      background: #f2f2f2;
+
+    .mobile_menu_outter{
+    background: #f2f2f2;
     width: 50vw;
     height: 100vh;
-    /* margin: -0.01rem; */
-    /* top: 0;
-    left: 0; */
     overflow-y: hidden;
     overflow-x: hidden;
     transform: translate(-50%, -50%);
@@ -63,7 +62,7 @@ export const MobileMenuStyle = styled.div`
     transition: transform 0.5s ease-in-out;
     z-index: 1;
     top: 0;
-    left: 45%;
+    left: 23rem;
     color: #000000;
   } 
 

@@ -162,6 +162,10 @@ export const PageHeroStyle = styled.div`
 @media (max-width: 960px){
     margin: 2rem;
 
+.description{
+    margin-right: 0vw;
+}
+
 .hero-container{
     flex-direction: column;
 }
@@ -172,7 +176,6 @@ export const PageHeroStyle = styled.div`
 .section-title{
     font-size: 1.2rem;
     margin-bottom: -1.5rem;
-    
 }
 
 .section-name{
@@ -214,9 +217,6 @@ height: auto; */
 }
 
 @media (max-width: 740px){
-.description{
-    padding-right: 0rem;
-}
 .section-title{
     font-size: 1.1rem;
     margin-bottom: -1.7rem;
@@ -246,6 +246,29 @@ a.download-btn{
 margin-bottom: 2rem;
 }
 
+}
+
+@media (max-width: 425px){
+margin: 2rem 1rem;
+
+.section-title{
+    font-size: 1rem;
+    margin-bottom: -1rem;
+}
+
+.section-name{
+    font-size: 2rem;
+    margin-bottom: -0.5rem;
+    line-height: 2.5rem;
+}
+
+.section-description{
+    font-size: 1.2rem;
+}
+
+.hero-btn{
+    margin-right: 5%;
+}
 }
 }
 
