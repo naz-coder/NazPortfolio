@@ -1,15 +1,21 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import {FaWhatsapp} from 'react-icons/fa'
 import {FaTwitter, FaGithub, FaLinkedinIn, FaInstagram} from 'react-icons/fa'
 
-const MobileMenu = () => {
+const MobileMenu = ({closeModal, scrollHandler}) => {
+  const menuControl = () => {
+    scrollHandler();
+    closeModal();
+  }
+
   return (
     <MobileMenuStyle>
       <div className='mobile_menu_outter'>
       <nav className='mobile_menu_item'>
           <ul>
-          <li>About me</li>
+          <li onClick={menuControl}><Link to='/' className='menu-link'>About me</Link></li>
           <li>Services</li>
           <li>Portfolio</li>
           <li>CodeSpac</li>
@@ -70,6 +76,11 @@ export const MobileMenuStyle = styled.div`
     padding-top: 50px;
 
   }
+
+  .menu-link{
+  text-decoration: none;
+  color: inherit;
+}
 
     .mobile_menu_item ul li{
       padding: 17px;

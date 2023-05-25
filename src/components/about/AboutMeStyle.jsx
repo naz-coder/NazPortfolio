@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const AboutMeStyle = styled.div`
-    margin: 15vh 12vw;
+    margin: 20vh 12vw;
     padding: 2rem;
     border-radius: 0.5rem;
     border: 1px solid #ece1e1;

@@ -4,7 +4,7 @@ import {AboutMeStyle} from "./AboutMeStyle";
 const AboutMe = () => {
   return (
     <AboutMeStyle>
-        <div>
+        <div id='aboutMe'>
             <div className="skills">
                 <div className='skill-level-code'>
                 <h3 className='about-title'>Skill</h3>

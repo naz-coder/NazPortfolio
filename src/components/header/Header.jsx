@@ -1,5 +1,7 @@
+
 import React, {useState} from 'react'
 import {HeaderStyle} from "../header/HeaderStyle"
+import {Link} from "react-router-dom"
 import MobileMenu from '../atoms/MobileMenu'
 import whiteLogoo from '../../assets/whiteLogoo.jpg'
 import {FaWhatsapp} from 'react-icons/fa'
@@ -9,17 +11,18 @@ import {CgMenuHotdog} from "react-icons/cg"
 const Header = () => {
   const [mobileMenu, setMobileMenu] = useState(false)
 
-  // const mobilMenuHandler = () => {
-  //   setMobileMenu(true);
-  // }
-
-  // const handleCloseMenu = () => {
-  //   setMobileMenu(false);
-  // }
-
   const toggleMenu = () => {
-    setMobileMenu(!mobileMenu);
+    setMobileMenu(true)
   }
+
+  const closeModal = () => {
+    setMobileMenu(false);
+  }
+
+  const scrollHandler = () => {
+    const sectionElement = document.getElementById("aboutMe");
+    sectionElement.scrollIntoView({behavior: "smooth"});
+  };
 
   return (
     <HeaderStyle>
@@ -27,7 +30,7 @@ const Header = () => {
       <img src={whiteLogoo} alt='Naz-coder logo'></img>
       <nav className='nav_menu'>
           <ul>
-          <li>About me</li>
+          <li onClick={scrollHandler}><Link to="/" className='menu-link'>About me</Link></li>
           <li>Services</li>
           <li>Portfolio</li>
           <li>CodeSpac</li>
@@ -49,7 +52,7 @@ const Header = () => {
         <CgMenuHotdog onClick={toggleMenu}/>
       </div>
 
-      {mobileMenu && <MobileMenu/>}
+      {mobileMenu && <MobileMenu closeModal={closeModal} scrollHandler={scrollHandler}/>}
     </div>
     </HeaderStyle>
   )

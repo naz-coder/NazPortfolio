@@ -11,6 +11,11 @@ a{
     text-decoration: none;
 }
 
+.menu-link{
+  text-decoration: none;
+  color: inherit;
+}
+
 li{
   list-style:            none;
 }
