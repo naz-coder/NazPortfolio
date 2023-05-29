@@ -48,6 +48,10 @@ const AboutMe = () => {
                     <label for="file">Wix 80%</label>
                     <progress id="file" value="80" max="100">80%</progress>
                  </div>
+                 <div>
+                    <label for="file">Bootstrap 96%</label>
+                    <progress id="file" value="96" max="100">96%</progress>
+                 </div>
                 </div>
             <div className="about">
                 <h3 className='about-subtitle'>About me</h3>

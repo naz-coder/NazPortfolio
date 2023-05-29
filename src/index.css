@@ -8,8 +8,11 @@ body {
   font-family:      'Zen Kurenaido', sans-serif;
   overflow:         scroll;
   background-color: #ece1e1;
-  /* background-color: green; */
+}
 
+::selection{
+  background-color: #8B3611;
+  color: #ffffff;
 }
 
 body::-webkit-scrollbar{

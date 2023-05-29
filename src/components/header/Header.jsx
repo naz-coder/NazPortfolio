@@ -19,10 +19,16 @@ const Header = () => {
     setMobileMenu(false);
   }
 
-  const scrollHandler = () => {
+  const aboutScrollHandler = () => {
     const sectionElement = document.getElementById("aboutMe");
     sectionElement.scrollIntoView({behavior: "smooth"});
   };
+
+  const serviceScrollHandler = () => {
+    const sectionElement = document.getElementById("service");
+    sectionElement.scrollIntoView({behavior: "smooth"});
+  };
+
 
   return (
     <HeaderStyle>
@@ -30,8 +36,8 @@ const Header = () => {
       <img src={whiteLogoo} alt='Naz-coder logo'></img>
       <nav className='nav_menu'>
           <ul>
-          <li onClick={scrollHandler}><Link to="/" className='menu-link'>About me</Link></li>
-          <li>Services</li>
+          <li onClick={aboutScrollHandler}><Link to="/" className='menu-link'>About me</Link></li>
+          <li onClick={serviceScrollHandler}><Link to="/" className='menu-link'>Services</Link></li>
           <li>Portfolio</li>
           <li>CodeSpac</li>
           <li>Resume</li>
@@ -52,7 +58,12 @@ const Header = () => {
         <CgMenuHotdog onClick={toggleMenu}/>
       </div>
 
-      {mobileMenu && <MobileMenu closeModal={closeModal} scrollHandler={scrollHandler}/>}
+      {mobileMenu && <MobileMenu 
+        closeModal={closeModal} 
+        aboutScrollHandler={aboutScrollHandler}
+        serviceScrollHandler={serviceScrollHandler}
+        />
+      }
     </div>
     </HeaderStyle>
   )
