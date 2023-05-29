@@ -121,6 +121,7 @@ export const ServiceStyle = styled.div`
 }
 
 @media (max-width: 740px){
+    padding-bottom: 3rem;
     .service-outter {
     margin: 2rem;
     grid-template-columns: 1fr;
@@ -134,9 +135,10 @@ export const ServiceStyle = styled.div`
 }
 
 .cards-1, .cards-2, .cards-3, .cards-4{
-    padding: 0rem 2.5rem;
+    padding: 0rem 1rem;
     height: 100%;
 }
+
 
 }
 
