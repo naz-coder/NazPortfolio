@@ -129,16 +129,22 @@ export const ServiceStyle = styled.div`
 
 .service-group-1, .service-group-2{
     grid-template-columns: 1fr;
-    grid-gap: 2.5rem;
-    margin-bottom: 2.5rem;
-
+    grid-gap: 4.5rem;
+    margin-bottom: 4.5rem;
 }
 
 .cards-1, .cards-2, .cards-3, .cards-4{
-    padding: 0rem 1rem;
+    padding: 1rem 1rem;
     height: 100%;
 }
 
+.service-title{
+    font-size: 1.2rem;
+}
+
+.service-content p{
+    font-size: 1rem;
+}
 
 }
 
