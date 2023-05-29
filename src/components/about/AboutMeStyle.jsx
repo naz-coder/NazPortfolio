@@ -70,7 +70,7 @@ export const AboutMeStyle = styled.div`
     text-align: center;
     color: #ffffff;
     font-size: 1.2rem;
-    font-weight: 900;
+    font-weight: 500;
 }
 
     .hire-me button:hover{

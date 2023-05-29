@@ -29,7 +29,7 @@ export const ButtonStyle = styled.div`
     text-align: center;
     color: #ffffff;
     font-size: 1.2rem;
-    font-weight: 900;
+    font-weight: 500;
 }
 
     button.primary-btn:hover{
