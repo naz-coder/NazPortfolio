@@ -25,7 +25,7 @@ const Header = () => {
   };
 
   const serviceScrollHandler = () => {
-    const sectionElement = document.getElementById("services");
+    const sectionElement = document.getElementById("service");
     sectionElement.scrollIntoView({behavior: "smooth"});
   };
 
