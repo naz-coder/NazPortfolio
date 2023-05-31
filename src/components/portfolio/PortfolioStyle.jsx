@@ -173,7 +173,7 @@ export const PortfolioStyle = styled.div`
 margin: 2rem 1rem;
 .project-item img{
         max-width: 650px;
-        height: 250px;
+        height: 200px;
     }
 }
 
