@@ -101,15 +101,15 @@ export const ServiceStyle = styled.div`
     font-weight: 900;
     font-size: 1.1rem;
     color: #333333;
-
 }
 
 
-@media (max-width: 1024px){
+@media (max-width: 1550px){
     .service-outter {
     margin: 6vh 6vw;
     grid-template-columns: 1fr;
 }
+
 
 }
 

@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import {FaWhatsapp} from 'react-icons/fa'
 import {FaTwitter, FaGithub, FaLinkedinIn, FaInstagram} from 'react-icons/fa'
 
-const MobileMenu = ({closeModal, aboutScrollHandler, serviceScrollHandler}) => {
+const MobileMenu = ({closeModal, aboutScrollHandler, serviceScrollHandler, porfolioScrollHandler}) => {
   const menuControl = () => {
     aboutScrollHandler();
     closeModal();
@@ -12,6 +12,11 @@ const MobileMenu = ({closeModal, aboutScrollHandler, serviceScrollHandler}) => {
 
   const serviceMenuControl = () => {
     serviceScrollHandler();
+    closeModal();
+  }
+
+  const portfolioMenuControl = () => {
+    porfolioScrollHandler();
     closeModal();
   }
 
@@ -23,7 +28,7 @@ const MobileMenu = ({closeModal, aboutScrollHandler, serviceScrollHandler}) => {
           <ul>
           <li onClick={menuControl}><Link to='/' className='menu-link'>About me</Link></li>
           <li onClick={serviceMenuControl}><Link to='/' className='menu-link'>Services</Link></li>
-          <li>Portfolio</li>
+          <li onClick={portfolioMenuControl}><Link to='/' className='menu-link'>Portfolio</Link></li>
           <li>CodeSpac</li>
           <li>Resume</li>
           <li>Contact</li>

@@ -25,10 +25,14 @@ const Header = () => {
   };
 
   const serviceScrollHandler = () => {
-    const sectionElement = document.getElementById("service");
+    const sectionElement = document.getElementById("services");
     sectionElement.scrollIntoView({behavior: "smooth"});
   };
 
+  const porfolioScrollHandler = () => {
+    const sectionElement = document.getElementById("portfolio");
+    sectionElement.scrollIntoView({behavior: "smooth"});
+  };
 
   return (
     <HeaderStyle>
@@ -38,7 +42,7 @@ const Header = () => {
           <ul>
           <li onClick={aboutScrollHandler}><Link to="/" className='menu-link'>About me</Link></li>
           <li onClick={serviceScrollHandler}><Link to="/" className='menu-link'>Services</Link></li>
-          <li>Portfolio</li>
+          <li onClick={porfolioScrollHandler}><Link to="/" className='menu-link'>Portfolio</Link></li>
           <li>CodeSpac</li>
           <li>Resume</li>
           <li>Contact</li>
@@ -62,6 +66,7 @@ const Header = () => {
         closeModal={closeModal} 
         aboutScrollHandler={aboutScrollHandler}
         serviceScrollHandler={serviceScrollHandler}
+        porfolioScrollHandler={porfolioScrollHandler} 
         />
       }
     </div>
