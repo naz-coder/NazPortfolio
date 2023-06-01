@@ -44,7 +44,39 @@ export const ContactStyle = styled.div`
     height: 100%;
   }
 
-  .contact-details h3 {
+  .details{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+  }
+
+  li{
+    list-style: none;
+  }
+
+  li.location-icon, li.email-icon, li.phone-icon{
+    margin-top: 1.9rem;
+    background-color: #d69b81;
+    background-position: right bottom;
+    transition: all 0.3s ease-out;
+    padding:  0.8rem 0.8rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  li.location-icon:hover, li.email-icon:hover, li.phone-icon:hover{
+    opacity: 0.9;
+    cursor: pointer;
+    background-position: left bottom;
+    transition: all 0.3s ease-in-out;
+    translate: 0.5s;
+  }
+
+   .contact-details h3 {
     font-weight: 900;
     font-size: 1.3rem;
     color: #333333;
@@ -54,12 +86,13 @@ export const ContactStyle = styled.div`
     font-weight: 500;
     font-size: 1.3rem;
     color: #521d06;
-    margin-top: -1rem;
+    margin-top: -1.2rem;
   }
 
   iframe{
     width: 25vw;
     height: 35vh;
+    margin-top: 1.5rem;
   }
 
   .contact-form {
@@ -143,11 +176,11 @@ export const ContactStyle = styled.div`
     text-align: center;
     color: #ffffff;
     font-size: 1.2rem;
-    font-weight: 500;
     font-family: "Archivo Narrow", sans-serif;
     font-family: "Fira Sans", sans-serif;
     font-family: "Josefin Sans", sans-serif;
     font-family: "Zen Kurenaido", sans-serif;
+    font-weight: 900;
   }
 
   button.submit-btn:hover {
@@ -309,5 +342,21 @@ iframe{
 button.submit-btn {
   margin-top: 0rem;
 }
+}
+
+@media (max-width: 425px) {
+    .details{
+    flex-direction: column;
+  }
+
+  li.location-icon, li.email-icon, li.phone-icon{
+    margin-bottom: -1rem;
+  }
+
+  .contact-details p {
+    margin-top: -1.2rem;
+    margin-bottom: 0.2rem;
+    font-size: 1.2rem;
+  }
 }
 `;

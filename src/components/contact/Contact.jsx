@@ -2,6 +2,10 @@
 import React, { useState } from "react";
 import { ContactStyle } from "./ContactStyle";
 import contactData from "../../projects.json";
+import {GrLocation} from "react-icons/gr";
+import {BsPhone} from "react-icons/bs"; 
+import {HiOutlineMail} from "react-icons/hi"; 
+
 
 const Contact = () => {
     const [userInput, setUserInput] = useState("");
@@ -31,16 +35,19 @@ const Contact = () => {
         <div className="contact-outter">
           <div className="contact-details">
             <div className="details">
-              <h3>Location:</h3>
-              <p>Federal Capital Territory - Abuja</p>
+              <div className="location-section"><li className="location-icon"><GrLocation/></li></div>
+              <div><h3>Location:</h3>
+              <p>Federal Capital Territory - Abuja</p></div>
             </div>
             <div className="details">
-              <h3>Email:</h3>
-              <p>nazanajemba@gmail.com</p>
+              <div className="email-section"><li className="email-icon"><HiOutlineMail/></li></div>
+              <div><h3>Email:</h3>
+              <p>nazanajemba@gmail.com</p></div>
             </div>
             <div className="details">
-              <h3>Call or Whatsapp:</h3>
-              <p>+234 81672 65619</p>
+                <div className="phone-section"><li className="phone-icon"><BsPhone/></li></div>
+                <div><h3>Call or Whatsapp:</h3>
+                <p>+234 81672 65619</p></div>
             </div>
             <div>
               <iframe

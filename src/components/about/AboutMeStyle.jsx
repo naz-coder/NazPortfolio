@@ -72,7 +72,7 @@ export const AboutMeStyle = styled.div`
     border-radius: 0.5rem;
     background-position: right bottom;
     transition: all 0.5s ease-in;
-    padding: 0.8rem 2.5rem;
+    padding: 0.7rem 2.5rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
     color: #ffffff;
@@ -81,6 +81,12 @@ export const AboutMeStyle = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Archivo Narrow", sans-serif;
+    font-family: "Fira Sans", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+    font-family: "Zen Kurenaido", sans-serif;
+    font-weight: 900;
+
 }
 
 button.hire-me:hover{
