@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import servicesBg from "../../assets/servicesBg.jpg";
-import patternBg from "../../assets/serviceBg.jpg";
 
 export const ServiceStyle = styled.div`
     background-color: whitesmoke;

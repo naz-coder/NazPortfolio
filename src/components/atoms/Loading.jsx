@@ -5,7 +5,7 @@ const Loading = () => {
   return (
     <LoadingStyle>
         <div>
-            <h3>THIS SITE IS CURRENTLY BEING UPDATED</h3>
+            <h3>THIS SITE IS CURRENTLY BEING UPDATED: use the Email or Phone contacts</h3>
         </div>
     </LoadingStyle>
   )
@@ -17,6 +17,6 @@ export const LoadingStyle = styled.div`
     background-color: #000000;
     color: #ffffff;
     text-align: center;
-    padding: 0.2rem;
+    padding: 0.2rem 2rem;
     font-size: 0.8rem;
 `

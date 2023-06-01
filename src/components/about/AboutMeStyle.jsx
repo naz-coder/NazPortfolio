@@ -7,6 +7,9 @@ export const AboutMeStyle = styled.div`
     border: 1px solid #ece1e1;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
+    a{
+        text-decoration: inherit;
+    }
     .about-title{
         font-size: 2rem;
         margin-top: 0rem;
@@ -58,8 +61,12 @@ export const AboutMeStyle = styled.div`
         color: #000000;
         text-transform: uppercase;
     }
+
+    button.hire-me a{
+        color: #ffffff;
+    }
     
-    .hire-me button{
+    button.hire-me{
     background-color: #521d06;
     border: 1px solid #521d06;
     border-radius: 0.5rem;
@@ -71,9 +78,12 @@ export const AboutMeStyle = styled.div`
     color: #ffffff;
     font-size: 1.2rem;
     font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-    .hire-me button:hover{
+button.hire-me:hover{
     background-color: #8B3611;
     border: 1px solid #8B3611;
     background-position: left bottom;

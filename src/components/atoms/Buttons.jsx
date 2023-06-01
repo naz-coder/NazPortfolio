@@ -1,12 +1,18 @@
 import React from 'react'
 import styled from 'styled-components';
 import FavourChinazaAnajembaResume from "../../assets/FavourChinazaAnajembaResume.pdf";
+import { Link } from 'react-router-dom';
 
 const Buttons = ({buttonText}) => {
+    const contactScrollHandler = () => {
+        const sectionElement = document.getElementById("contact");
+        sectionElement.scrollIntoView({behavior: "smooth"});
+      };
+
   return (
     <ButtonStyle>
         <div className='btn-outter'>
-            <button className='primary-btn'>{buttonText}</button>
+            <button onClick={contactScrollHandler} className='primary-btn'><Link to='/' className='menu-link'>{buttonText}</Link></button>
             <a href={FavourChinazaAnajembaResume} download className='download-btn'> Download CV</a>
         </div>
     </ButtonStyle>
@@ -16,6 +22,10 @@ const Buttons = ({buttonText}) => {
 export default Buttons;
 
 export const ButtonStyle = styled.div`
+    a{
+        text-decoration: none;
+    }
+
     button.primary-btn{
     background-color: #521d06;
     border: 1px solid #521d06;
@@ -64,6 +74,11 @@ export const ButtonStyle = styled.div`
     color: #ffffff;
     cursor: pointer;
 }
+
+.primary-btn a{
+    color: #ffffff;
+}
+
 
 @media (max-width: 1024px){
     button.primary-btn{

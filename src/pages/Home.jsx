@@ -4,6 +4,7 @@ import PageHero from '../components/hero/PageHero';
 import AboutMe from '../components/about/AboutMe';
 import Services from '../components/services/Services';
 import Portfolio from "../components/portfolio/Portfolio";
+import Contact from "../components/contact/Contact";
 import Loading from "../components/atoms/Loading";
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
         <AboutMe/>
         <Services/>
         <Portfolio/>
+        <Contact/>
         <Loading/>
     </div>
   )

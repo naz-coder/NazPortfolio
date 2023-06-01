@@ -90,5 +90,29 @@
             "credit": "Naz-coder",
             "stack": "ReactJS, CSS"
         }
+    ],
+
+    "contact":[
+        {
+            "id": 1000,
+            "label": "Name",
+            "placeHolder": "Enter your name",
+            "required": true,
+            "dataType": "text"
+        },
+        {
+            "id": 1001,
+            "label": "Email",
+            "placeHolder": "Enter your email",
+            "required": true,
+            "dataType": "email"
+        },
+        {
+            "id": 1002,
+            "label": "Connect",
+            "placeHolder": "Enter social link or contact to reach you",
+            "required": true,
+            "dataType": "text"
+        }
     ]
 }
