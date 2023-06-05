@@ -61,7 +61,7 @@
             "altName": "NazAnajemba thumbnail",
             "link": "https://nazanajemba.vercel.app/",
             "credit": "Naz-coder",
-            "stack": "ReactJS, Styled Component, React Icons"
+            "stack": "ReactJS, Styled Compo., ExpressJS, Nodemailer"
         },
         {
             "id": 1007,
@@ -98,21 +98,24 @@
             "label": "Name",
             "placeHolder": "Enter your name",
             "required": true,
-            "dataType": "text"
+            "dataType": "text",
+            "htmlFor": "name"
         },
         {
             "id": 1001,
             "label": "Email",
             "placeHolder": "Enter your email",
             "required": true,
-            "dataType": "email"
+            "dataType": "email",
+            "htmlFor": "email"
         },
         {
             "id": 1002,
             "label": "Connect",
             "placeHolder": "Enter social link or contact to reach you",
             "required": true,
-            "dataType": "text"
+            "dataType": "text",
+            "htmlFor": "connect"
         }
     ]
 }

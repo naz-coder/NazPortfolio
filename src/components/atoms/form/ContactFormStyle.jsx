@@ -1,95 +1,6 @@
 import styled from "styled-components";
 
-export const ContactStyle = styled.div`
-  background-color: whitesmoke;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  padding: 10vh 12vw;
-  
-  .section-title h3 {
-    font-size: 2rem;
-    margin-top: 0rem;
-    border-left: 3px solid #8b3611;
-    padding-left: 0.5rem;
-  }
-
-  .section-title p {
-    font-weight: 900;
-    font-size: 1.3rem;
-    color: #333333;
-    margin-top: -1rem;
-  }
-
-  .contact-outter {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-gap: 5%;
-  }
-
-  .contact-details {
-    background-color: #ece1e1;
-    border: 1px solid #ece1e1;
-    background-position: right bottom;
-    transition: all 0.5s ease-in-out;
-    padding: 0.8rem 2.5rem;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    font-size: 1.2rem;
-    font-weight: 900;
-    height: 100%;
-  }
-
-  .details{
-    display: flex;
-    flex-direction: row;
-    column-gap: 1rem;
-  }
-
-  li{
-    list-style: none;
-  }
-
-  li.location-icon, li.email-icon, li.phone-icon{
-    margin-top: 1.9rem;
-    background-color: #d69b81;
-    background-position: right bottom;
-    transition: all 0.3s ease-out;
-    padding:  0.8rem 0.8rem;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1.5rem;
-    height: 1.5rem;
-  }
-
-  li.location-icon:hover, li.email-icon:hover, li.phone-icon:hover{
-    opacity: 0.9;
-    cursor: pointer;
-    background-position: left bottom;
-    transition: all 0.3s ease-in-out;
-    translate: 0.5s;
-  }
-
-   .contact-details h3 {
-    font-weight: 900;
-    font-size: 1.3rem;
-    color: #333333;
-  }
-
-  .contact-details p {
-    font-weight: 500;
-    font-size: 1.3rem;
-    color: #521d06;
-    margin-top: -1.2rem;
-  }
-
-  iframe{
-    width: 25vw;
-    height: 35vh;
-    margin-top: 1.5rem;
-  }
-
+export const FormStyle = styled.div`
   .contact-form {
     background-color: #ece1e1;
     border: 1px solid #ece1e1;
@@ -187,9 +98,31 @@ export const ContactStyle = styled.div`
     translate: 0.5s;
   }
 
-  @media (max-width: 1024px) {
-  padding: 6vh 6vw 20vh 6vw;
+  /* Form validation UI */
+  .invalid input, .invalid textarea{
+    border-color: #da3232;
+  }
 
+  .error-msg{
+    color: #b12727;
+    margin-top: -1.45rem;
+  }
+
+  .error-msg-textarea{
+    color: #b12727;
+    margin-top: -1.8rem;
+  }
+
+  button.submit-btn:disabled,
+  button.submit-btn:disabled:hover,
+  button.submit-btn:disabled:active{
+    cursor: not-allowed;
+    background-color: #d69b81;
+    border-color: #d69b81;
+    color: #333333;
+  }
+
+  @media (max-width: 1024px) {
   .section-title h3 {
     font-size: 2rem;
     margin-top: 0rem;
@@ -251,12 +184,8 @@ export const ContactStyle = styled.div`
 
   }
 
-  @media (max-width: 960px) {
-    padding: 4rem 2rem 10rem 2rem; 
-  }
 
   @media (max-width: 768px) {
-    padding: 4rem 1rem 10rem 1rem; 
 
 .section-title h3 {
   font-size: 2rem;
@@ -284,11 +213,6 @@ export const ContactStyle = styled.div`
 
   }
 
-  /* .contact-form {
-    padding: 0.8rem 0.5rem;
-    font-size: 1.2rem;
-    height: 100%;
-  } */
 
 .contact-details h3 {
   font-weight: 900;
@@ -301,11 +225,6 @@ export const ContactStyle = styled.div`
   font-size: 1.3rem;
   color: #521d06;
   margin-top: -1rem;
-}
-
-iframe{
-  width: 80vw;
-  height: 35vh;
 }
 
 .contact-form {
