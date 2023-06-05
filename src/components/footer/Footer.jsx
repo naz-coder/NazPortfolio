@@ -1,9 +1,9 @@
 import React from "react";
 import {FooterStyle} from "../footer/FooterStyle";
-import whiteLogoo from '../../images/whiteLogoo.jpg'
+import whiteLogoo from '../../assets/whiteLogoo.jpg'
 import {FaTwitter, FaGithub, FaWhatsapp, FaInstagram, FaLinkedinIn} from 'react-icons/fa'
 
-const footer = () => {
+const Footer = () => {
   return (
     <FooterStyle>
       <div  className="foot">
@@ -26,11 +26,11 @@ const footer = () => {
         <div className="">
           <p>CONNECT</p>
           <div className="nav_socials">
-          <a href="https://www.twitter.com/TechSiz"><FaTwitter/></a>
-          <a href="https://wa.me/2348167265619"><FaWhatsapp/></a>
-          <a href="https://www.linkedin.com/in/favour-naza-anajemba-02a156196"><FaLinkedinIn/></a>
-          <a href="https://github.com/naz-coder"><FaGithub/></a>
-          <a href="https://wa.me/2348167265619"><FaInstagram/></a>
+          <a target="_blank" href="https://www.twitter.com/TechSiz"><FaTwitter/></a>
+          <a target="_blank" href="https://wa.me/2348167265619"><FaWhatsapp/></a>
+          <a target="_blank" href="https://www.linkedin.com/in/favour-naza-anajemba-02a156196"><FaLinkedinIn/></a>
+          <a target="_blank" href="https://github.com/naz-coder"><FaGithub/></a>
+          <a target="_blank" href="https://wa.me/2348167265619"><FaInstagram/></a>
             {/* <a href="mailto:nazanajemba@gmail.com/"><TfiEmail className="email" /></a> */}
           </div>
         </div>
@@ -41,4 +41,4 @@ const footer = () => {
   );
 };
 
-export default footer;
+export default Footer;

@@ -5,7 +5,7 @@ export const ContactStyle = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 10vh 12vw;
+  padding: 10vh 12vw 17vh 12vw;
   
   .section-title h3 {
     font-size: 2rem;

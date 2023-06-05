@@ -6,6 +6,7 @@ export const FooterStyle = styled.div`
   background-color: #000000;
   color: #bdc2ca;
   padding: 25px 10px 10px 10px;
+  margin-top: 10rem;
   font-size: 12px;
 }
 .foot_flex {
