@@ -79,7 +79,7 @@ const ContactForm = () => {
             onBlur={nameBlurHandler}
             value={nameValue}
             />
-            {nameHasError && <p className="error-msg">Please enter a name</p>}
+            {nameHasError && <p className="error-msg">Please enter a name.</p>}
         </div>
         <div className={emailClasses}>
           <label htmlFor="email">Email:</label>
