@@ -36,7 +36,7 @@ const ContactForm = () => {
   console.log(server);
   const formSubmithandler = async (e) => {
     e.preventDefault();
-    const response = await fetch(`${server}/send`, {
+    const response = await fetch(`${server}send`, {
       method: "POST",
       headers: {
         "Content-type": "application/json",
