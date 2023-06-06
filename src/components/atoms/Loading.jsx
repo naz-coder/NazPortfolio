@@ -5,7 +5,7 @@ const Loading = () => {
   return (
     <LoadingStyle>
         <div>
-            <h3>THIS SITE IS CURRENTLY BEING UPDATED</h3>
+            <h3>THIS SITE IS CURRENTLY BEING UPDATED: use the Email or Phone contacts</h3>
         </div>
     </LoadingStyle>
   )
