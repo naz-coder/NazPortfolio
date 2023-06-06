@@ -50,7 +50,7 @@ app.post("/send", function (req, res) {
 });
 
 // Run the server on port 4040
-const port = 4040;
+const port = +process.env.PORT || 4000;
 app.listen(port, () => {
   console.log(`Server is running on port: ${port}`);
 });

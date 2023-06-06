@@ -32,8 +32,8 @@ const ContactForm = () => {
     formIsValid = true;
   };
 
-  const server = process.env.PORT_URL;
-
+  const server = `${process.env.REACT_APP_URL}`;
+  console.log(server);
   const formSubmithandler = async (e) => {
     e.preventDefault();
     const response = await fetch(`${server}/send`, {
