@@ -11,8 +11,6 @@ app.options("*", cors);
 
 // Nodemailer setup for transporter object
 let transporter = nodemailer.createTransport({
-  port: 4040,
-  host: "smtp.gmail.com",
   service: "gmail",
   auth: {
     type: "OAuth2",
@@ -22,17 +20,16 @@ let transporter = nodemailer.createTransport({
     clientSecret: process.env.OAUTH_CLIENT_SECRET,
     refreshToken: process.env.OAUTH_REFRESH_TOKEN,
   },
-  secure: true,
 });
 
-// transporter.verify((err, success) => {
-//   err
-//     ? console.log(err)
-//     : console.log(`=== Server is ready to take your messages: ${success} ===`);
-// });
+transporter.verify((err, success) => {
+  err
+    ? console.log(err)
+    : console.log(`=== Server is ready to take your messages: ${success} ===`);
+});
 
 // Routing the nodemailer for accessibility through the Frontend
-app.post("/send", async function (req, res) {
+app.post("/send", function (req, res) {
   // Nodemailer setup for mailOptions object
   let mailOptions = {
     from: req.body.mails.emailValue, // Use emailValue instead of mails.emailValue
@@ -42,27 +39,14 @@ app.post("/send", async function (req, res) {
   };
 
   // Nodemailer setup for sendMail method
-  await new Promise((resolve, reject) => {
-    transporter.verify(function (err, success) {
-      if (err) {
-        reject(err);
-      } else {
-        console.log(`=== Message sent successfully! ===`);
-        resolve(success);
-      }
-    });
-  })
-
-  await new Promise((resolve, reject) =>{
-    transporter.sendMail(mailOptions, function (err, data) {
-      if (err) {
-        reject(err);
-      } else {
-        console.log(`=== Message sent successfully! ===`);
-        resolve(data);
-      }
-    });
-  })
+  transporter.sendMail(mailOptions, function (err, data) {
+    if (err) {
+      res.json({ status: "fail" });
+    } else {
+      console.log(`=== Message sent successfully! ===`);
+      res.json({ status: "success" });
+    }
+  });
 });
 
 // Run the server on port 4040

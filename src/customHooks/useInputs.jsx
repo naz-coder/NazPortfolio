@@ -1,10 +1,10 @@
 import {useState} from 'react'
 
-const useInputs = (validateValue) => {
+const useInputs = () => {
     const [enteredValue, setEnteredValue] = useState("");
     const [isTouched, setIsTouched] = useState(false);
 
-    const valueIsValid = validateValue(enteredValue);
+    const valueIsValid = enteredValue;
     const hasError = !valueIsValid && isTouched;
 
     const valueChangeHandler = (e) => {
