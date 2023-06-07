@@ -41,7 +41,7 @@ const Header = () => {
 
   return (
     <HeaderStyle>
-      <div className='header'>
+      <div className='header' id='header'>
       <img src={whiteLogoo} alt='Naz-coder logo'></img>
       <nav className='nav_menu'>
           <ul>
