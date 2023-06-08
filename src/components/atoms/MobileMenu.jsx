@@ -45,7 +45,7 @@ const MobileMenu = ({closeModal, aboutScrollHandler, serviceScrollHandler, porfo
           <li><a href="https://wa.me/2348167265619" target='blank'><FaWhatsapp/></a></li>
           <li><a href="https://www.linkedin.com/in/favour-naza-anajemba-02a156196" target='blank'><FaLinkedinIn/></a></li>
           <li><a href="https://github.com/naz-coder" target='blank'><FaGithub/></a></li>
-          <li><a href="https://wa.me/2348167265619" target='blank'><FaInstagram/></a></li>
+          <li><a href="https://www.instagram.com/naz.codes/" target='blank'><FaInstagram/></a></li>
         </ul>
       </nav>
     </div>

@@ -38,7 +38,6 @@ const Header = () => {
     sectionElement.scrollIntoView({behavior: "smooth"});
   };
 
-
   return (
     <HeaderStyle>
       <div className='header' id='header'>

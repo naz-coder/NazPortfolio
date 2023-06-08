@@ -8,7 +8,6 @@ const Enroll = () => {
     <EnrollStyle>
       <div className="contact-container" id="contact">
         <div className="section-title-codespac">
-        {/* <h3 className="section-title"></h3> */}
         <p className="section-description">
         Revitalize your learning journey with a dynamic infusion of
             excitement, bidding farewell to the tiresome monotony of routine.
