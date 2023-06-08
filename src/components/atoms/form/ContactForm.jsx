@@ -92,7 +92,7 @@ const ContactForm = () => {
             {emailHasError && <p className="error-msg">Please enter a valid email</p>}
         </div>
         <div className={connectClasses}>
-          <label htmlFor="connect">Connect:</label>
+          <label htmlFor="connect">Contact:</label>
           <input id="connect" name="connect" placeholder="Enter social link or contact to reach you" 
             datatype="text"
             onChange={connectChangeHandler}

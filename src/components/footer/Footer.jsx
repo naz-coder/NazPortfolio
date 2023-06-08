@@ -56,7 +56,7 @@ const Footer = () => {
         </div>
         <div className="foot_ite">
           <p className="footer-menu-subtitle">LEARN FRONTEND DEVELOPMENT</p>
-          <p className="footer-item-p">CodeSpac Tutors</p>
+          <p className="footer-item-p"><Link to="/academy" className='menu-link'>CodeSpac Tutors</Link></p>
         </div>
         <div className="foot_ite">
           <p className="footer-menu-subtitle">KEEP IN TOUCH</p>

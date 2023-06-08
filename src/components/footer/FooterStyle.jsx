@@ -155,6 +155,9 @@ a{
 }
 
 @media (max-width: 768px) {
+  .foot{
+    margin-top: 15rem;
+  }
   .foot_flex {
     display: flex;
     flex-direction: column;

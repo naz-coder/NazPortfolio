@@ -1,4 +1,3 @@
-
 import React, {useState} from 'react'
 import {HeaderStyle} from "../header/HeaderStyle"
 import {Link} from "react-router-dom"
@@ -39,6 +38,7 @@ const Header = () => {
     sectionElement.scrollIntoView({behavior: "smooth"});
   };
 
+
   return (
     <HeaderStyle>
       <div className='header' id='header'>
@@ -48,7 +48,7 @@ const Header = () => {
           <li onClick={aboutScrollHandler}><Link to="/" className='menu-link'>About me</Link></li>
           <li onClick={serviceScrollHandler}><Link to="/" className='menu-link'>Services</Link></li>
           <li onClick={porfolioScrollHandler}><Link to="/" className='menu-link'>Portfolio</Link></li>
-          <li>CodeSpac</li>
+          <li><Link to="/academy" className='menu-link'>CodeSpac</Link></li>
           <li>Resume</li>
           <li onClick={contactScrollHandler}><Link to="/" className='menu-link'>Contact</Link></li>        </ul>
       </nav>
@@ -80,3 +80,5 @@ const Header = () => {
 }
 
 export default Header
+
+
