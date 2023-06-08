@@ -1,7 +1,8 @@
-import React from 'react'
+import React, {useState} from 'react'
 import {BrowserRouter as  Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home"
 import Academy from './pages/Academy';
+
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         {/* <Route exact path='/aboutMe' element={<AboutMe/>} /> */}
       </Routes>
     </Router>
+
   );
 }
 

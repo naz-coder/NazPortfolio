@@ -7,6 +7,7 @@ import Portfolio from "../components/portfolio/Portfolio";
 import Contact from "../components/contact/Contact";
 import Loading from "../components/atoms/Loading";
 import Footer from '../components/footer/Footer';
+import BackToTop from "../components/atoms/BackToTop";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
         <Contact/>       
         <Footer/>
         <Loading/>
+        <BackToTop/>
     </div>
   )
 }

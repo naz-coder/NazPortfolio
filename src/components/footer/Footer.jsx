@@ -2,7 +2,6 @@ import React from "react";
 import {FooterStyle} from "../footer/FooterStyle";
 import whiteLogoo from '../../assets/whiteLogoo.jpg'
 import {FaTwitter, FaGithub, FaWhatsapp, FaInstagram, FaLinkedinIn} from 'react-icons/fa'
-import {BiUpArrowCircle} from "react-icons/bi";
 import {Link} from "react-router-dom";
 
 const Footer = () => {
@@ -78,9 +77,6 @@ const Footer = () => {
           <a target="_blank" href="https://www.instagram.com/naz.codes/"><FaInstagram/></a>
           </div>
           
-        </div>
-        <div className="foot_ite">
-          <p className="up-icon" onClick={heroScrollHandler}><Link to="/" className="up-icon-link"><BiUpArrowCircle className="top-icon"/></Link></p>
         </div>
       </div>
       <p className="copy">&copy; Naz-codes {new Date().getFullYear()}</p>
