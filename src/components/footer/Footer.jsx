@@ -75,7 +75,7 @@ const Footer = () => {
           <a target="_blank" href="https://wa.me/2348167265619"><FaWhatsapp/></a>
           <a target="_blank" href="https://www.linkedin.com/in/favour-naza-anajemba-02a156196"><FaLinkedinIn/></a>
           <a target="_blank" href="https://github.com/naz-coder"><FaGithub/></a>
-          <a target="_blank" href="https://wa.me/2348167265619"><FaInstagram/></a>
+          <a target="_blank" href="https://www.instagram.com/naz.codes/"><FaInstagram/></a>
           </div>
           
         </div>
