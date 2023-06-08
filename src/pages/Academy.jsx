@@ -4,6 +4,11 @@ import AcademyHero from '../components/academyHero/AcademyHero'
 import Footer from '../components/footer/Footer'
 
 const Academy = () => {
+  // const academyHeroScrollHandler = () => {
+  //   const sectionElement = document.getElementById("academyHeroSection");
+  //   sectionElement.scrollIntoView({behavior: "smooth"});
+  // };
+
   return (
     <div>
         <Header/>

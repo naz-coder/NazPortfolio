@@ -6,7 +6,7 @@ import favsHero from "../../assets/favsHero.png"
 const PageHero = () => {
   return (
     <PageHeroStyle>
-        <div className='hero-container'>
+        <div className='hero-container' id='heroSection'>
             <div className="description">
                 <p className='section-title'>Frontend Web Developer | Content Writer</p>
                 <h1 className='section-name'>Favour Chinaza Anajemba-Agada</h1>

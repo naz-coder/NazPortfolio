@@ -6,6 +6,11 @@ import {BiUpArrowCircle} from "react-icons/bi";
 import {Link} from "react-router-dom";
 
 const Footer = () => {
+  const heroScrollHandler = () => {
+    const sectionElement = document.getElementById("heroSection");
+    sectionElement.scrollIntoView({behavior: "smooth"});
+  };
+
   const aboutScrollHandler = () => {
     const sectionElement = document.getElementById("aboutMe");
     sectionElement.scrollIntoView({behavior: "smooth"});
@@ -37,7 +42,7 @@ const Footer = () => {
       <div className="foot_flex">
         <div className="foot_item">
           <div className="logo-hire">
-          <div><p><img src={whiteLogoo} alt="Logo"></img></p></div>
+          <div onClick={headerScrollHandler}><p><img src={whiteLogoo} alt="Logo"></img></p></div>
           <div className='hire-me'>
                   <p className='action-text'>Let's work together.</p>
                   <button onClick={contactScrollHandler} className='hire-me'><Link to='/' className='menu-link'>Hire me</Link></button>
@@ -75,7 +80,7 @@ const Footer = () => {
           
         </div>
         <div className="foot_ite">
-          <p className="up-icon" onClick={headerScrollHandler}><Link to="/" className="up-icon-link"><BiUpArrowCircle className="top-icon"/></Link></p>
+          <p className="up-icon" onClick={heroScrollHandler}><Link to="/" className="up-icon-link"><BiUpArrowCircle className="top-icon"/></Link></p>
         </div>
       </div>
       <p className="copy">&copy; Naz-codes {new Date().getFullYear()}</p>

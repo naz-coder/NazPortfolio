@@ -14,7 +14,7 @@ const AcademyHero = () => {
 
   return (
     <AcademyHeroStyle>
-      <div className="academy-hero">
+      <div className="academy-hero" id="academyHeroSection">
         <div className="academy-hero-content">
           <h2 className="section-name">
             Learning with us keeps you{" "}

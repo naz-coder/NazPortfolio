@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const HeaderStyle = styled.div`
+  position: sticky;
+  top: 0;
   padding:               1% 8%;
   background:          #111111;
   color:               #ffffff;

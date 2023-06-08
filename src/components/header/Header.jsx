@@ -42,7 +42,7 @@ const Header = () => {
   return (
     <HeaderStyle>
       <div className='header' id='header'>
-      <img src={whiteLogoo} alt='Naz-coder logo'></img>
+      <Link to={"/"}><img src={whiteLogoo} alt='Naz-coder logo'></img></Link>
       <nav className='nav_menu'>
           <ul>
           <li onClick={aboutScrollHandler}><Link to="/" className='menu-link'>About me</Link></li>
