@@ -5,11 +5,6 @@ import {FaTwitter, FaGithub, FaWhatsapp, FaInstagram, FaLinkedinIn} from 'react-
 import {Link} from "react-router-dom";
 
 const Footer = () => {
-  const heroScrollHandler = () => {
-    const sectionElement = document.getElementById("heroSection");
-    sectionElement.scrollIntoView({behavior: "smooth"});
-  };
-
   const aboutScrollHandler = () => {
     const sectionElement = document.getElementById("aboutMe");
     sectionElement.scrollIntoView({behavior: "smooth"});
