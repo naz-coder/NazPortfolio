@@ -43,13 +43,14 @@ const Header = () => {
       <div className='header' id='header'>
       <Link to={"/"}><img src={whiteLogoo} alt='Naz-coder logo'></img></Link>
       <nav className='nav_menu'>
-          <ul>
+        <ul>
           <li onClick={aboutScrollHandler}><Link to="/" className='menu-link'>About me</Link></li>
           <li onClick={serviceScrollHandler}><Link to="/" className='menu-link'>Services</Link></li>
           <li onClick={porfolioScrollHandler}><Link to="/" className='menu-link'>Portfolio</Link></li>
           <li><Link to="/academy" className='menu-link'>CodeSpac</Link></li>
-          <li>Resume</li>
-          <li onClick={contactScrollHandler}><Link to="/" className='menu-link'>Contact</Link></li>        </ul>
+          <li><Link to="/resume" className='menu-link'>Resume</Link></li>
+          <li onClick={contactScrollHandler}><Link to="/" className='menu-link'>Contact</Link></li>
+        </ul>
       </nav>
       <nav className='nav_socials'>
         <ul>
