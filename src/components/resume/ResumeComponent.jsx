@@ -113,7 +113,7 @@ const ResumeComponent = () => {
             </div>
             <div className="exp-deep">
               <p className="exp-name">Frontend Developer</p>
-              <p className="exp-duration">2022-Present</p>
+              <p className="exp-duration">2022-2022</p>
               <p className="exp-location">
                 Deep Technologies Ltd, Abuja - Nigeria
               </p>
