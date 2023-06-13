@@ -72,8 +72,7 @@ export const TestimonyStyle = styled.div`
     font-weight: 900;
     text-transform: capitalize;
     font-size: 2.5rem;
-    line-height: 5.5rem;
-    margin-bottom: 2rem;
+    padding-bottom: 1rem;
     color: #521d06;
     text-align: center;
   }
@@ -126,8 +125,9 @@ export const TestimonyStyle = styled.div`
     grid-gap: 8rem;
   }
   .testifier img{
-    width: 110px;
-    height: 105px;
+    width: 85px;
+    height: 80px;
+   
   }
 
   .testifier-comment{
@@ -143,15 +143,22 @@ export const TestimonyStyle = styled.div`
   @media (max-width: 768px) {
     .section-title {
       font-size: 1.5rem;
-      margin-bottom: -0.5rem;
-    }
-
-    .section-name {
-      font-size: 2.5rem;
-      margin-bottom: -0.5rem;
-      /* line-height: 3.5rem; */
+      margin-bottom: 1rem;
+      line-height: 1.8rem;
 
     }
+
+
+  .testimony-content{
+    padding: 0 1rem;
+    margin: 7vh 0;
+    display: block;
+  }
+
+  .testifier-name{
+    margin-top: 0.1rem;
+  }
+  
   }
 
   @media (max-width: 425px) {
