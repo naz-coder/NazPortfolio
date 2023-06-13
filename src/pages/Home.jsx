@@ -21,7 +21,7 @@ const Home = () => {
         <Portfolio/>
         <Contact/>       
         <Footer/>
-        <Loading/>
+        {/* <Loading/> */}
         <BackToTop/>
         
         {/* <Element name='pageHero'><PageHero/></Element>

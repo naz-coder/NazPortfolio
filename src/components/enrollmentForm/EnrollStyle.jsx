@@ -24,7 +24,7 @@ export const EnrollStyle = styled.div`
   }
 
   .contact-details {
-    padding: 0.8rem 2.5rem;
+    /* padding: 0.8rem 2.5rem; */
     height: 100%;
     display: flex;
     justify-content: center;
@@ -50,6 +50,12 @@ export const EnrollStyle = styled.div`
     margin-top: -1.2rem;
   }
 
+  .join-us-img {
+    /* width: 100%; */
+    height: auto;
+    width: 850px;
+  }
+
   .join-us-img:hover {
     opacity: 0.8;
     cursor: pointer;
@@ -60,7 +66,7 @@ export const EnrollStyle = styled.div`
     border: 1px solid #ece1e1;
     background-position: right bottom;
     transition: all 0.5s ease-in-out;
-    padding: 0.8rem 2.5rem;
+    padding: 0.8rem 2.5rem; 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     font-size: 1.2rem;
     font-weight: 900;
@@ -150,9 +156,21 @@ export const EnrollStyle = styled.div`
     translate: 0.5s;
   }
 
+  @media (max-width: 1750px) {
+    .join-us-img {
+      height: auto;
+    width: 350px;   
+  } 
+  }
+
   @media (max-width: 1024px) {
     padding-top: 10vh;
+    padding-bottom: 5rem;
 
+
+    .contact-form{
+      padding-bottom: 2rem;
+    }
     .contact-outter {
       grid-template-columns: 1fr;
       grid-gap: 5%;
@@ -166,6 +184,8 @@ export const EnrollStyle = styled.div`
     }
     .join-us-img {
       margin-top: -2rem;
+      height: auto;
+    width: 100%;   
     }
     .contact-form {
       padding: 1.5rem 2.5rem;
