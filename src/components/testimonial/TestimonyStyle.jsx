@@ -145,7 +145,6 @@ export const TestimonyStyle = styled.div`
       font-size: 1.5rem;
       margin-bottom: 1rem;
       line-height: 1.8rem;
-
     }
 
 
@@ -154,7 +153,6 @@ export const TestimonyStyle = styled.div`
     margin: 7vh 0;
     display: block;
   }
-
   .testifier-name{
     margin-top: 0.1rem;
   }
