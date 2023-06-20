@@ -43,6 +43,10 @@ const AboutMe = () => {
                     <progress id="file" value="40" max="100">40%</progress>
                  </div>
                  <div>
+                    <label for="file">ExpressJS 40%</label>
+                    <progress id="file" value="40" max="100">40%</progress>
+                 </div>
+                 <div>
                     <label for="file">WordPress 70%</label>
                     <progress id="file" value="70" max="100">70%</progress>
                  </div>
