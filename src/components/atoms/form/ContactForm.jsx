@@ -32,48 +32,42 @@ const ContactForm = () => {
     formIsValid = true;
   };
 
-  // fetch('https://naz-portfolio-backend.vercel.app/')
-  // .then(response => response.json())
-  // .then(data => {
-  //   console.log('Backend response:', data);
-  // })
-  // .catch(error => {
-  //   console.error('Error:', error);
-  // });
-
-
-  const server = `${process.env.REACT_APP_URL}`;
+  const server = process.env.REACT_APP_URL;
   const formSubmithandler = async (e) => {
     e.preventDefault();
-    const response = await fetch(`${server}send`, {
+
+    if (!formIsValid) {
+      return;
+    }
+
+    const response = await fetch(`${server}/send`, {
       method: "POST",
       headers: {
         "Content-type": "application/json",
       },
       body: JSON.stringify({
         mails: {
-        nameValue,
-        emailValue,
-        connectValue,
-        messageValue
+          nameValue,
+          emailValue,
+          connectValue,
+          messageValue
         }
       }),
-    }).then((res) => res.json()).then(async (res) => {
-      const resData = await res;
-      if (resData.status === "success") {
-        alert("Message Sent");
-        nameReset();
-        emailReset();
-        connectReset();
-        messageReset();
-      } else if (resData.status === "fail") {
-        alert("Message failed to send");
-      }
-    });
-
-    if (!formIsValid) {
-      return;
-    }  
+    }).then((res) => res.json())
+      .then((resData) => {
+        if (resData.status === "success") {
+          alert("Message Sent");
+          nameReset();
+          emailReset();
+          connectReset();
+          messageReset();
+        } else if (resData.status === "fail") {
+          alert("Message failed to send");
+        }
+      })
+      .catch((error) => {
+        console.error("Error:", error);
+      });
   };
 
   return (
