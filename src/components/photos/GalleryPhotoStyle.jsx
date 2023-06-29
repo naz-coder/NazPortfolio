@@ -84,12 +84,12 @@ export const GalleryStyle = styled.div`
     width: 100%;
     /* max-width: 500px;
     height: auto; */
-    filter: grayscale(1);
+    filter: grayscale(0);
   }
 
   .gallery-photo:hover {
     transform: scale(1.05);
-    filter: grayscale(0);
+    /* filter: grayscale(0); */
   }
   }
 
