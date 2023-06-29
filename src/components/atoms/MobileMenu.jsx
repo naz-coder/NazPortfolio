@@ -35,6 +35,7 @@ const MobileMenu = ({closeModal, aboutScrollHandler, serviceScrollHandler, porfo
           <li onClick={serviceMenuControl}><Link to='/' className='menu-link'>Services</Link></li>
           <li onClick={portfolioMenuControl}><Link to='/' className='menu-link'>Portfolio</Link></li>
           <li><Link to="/academy" className='menu-link'>CodeSpac</Link></li>
+          <li><Link to="/gallery" className='menu-link'>Gallery</Link></li>
           <li><Link to="/resume" className='menu-link'>Resume</Link></li>
           <li onClick={contactMenuControl}><Link to='/' className='menu-link'>Contact</Link></li>
         </ul>

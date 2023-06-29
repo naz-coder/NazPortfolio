@@ -48,6 +48,7 @@ const Header = () => {
           <li onClick={serviceScrollHandler}><Link to="/" className='menu-link'>Services</Link></li>
           <li onClick={porfolioScrollHandler}><Link to="/" className='menu-link'>Portfolio</Link></li>
           <li><Link to="/academy" className='menu-link'>CodeSpac</Link></li>
+          <li><Link to="/gallery" className='menu-link'>Gallery</Link></li>
           <li><Link to="/resume" className='menu-link'>Resume</Link></li>
           <li onClick={contactScrollHandler}><Link to="/" className='menu-link'>Contact</Link></li>
         </ul>

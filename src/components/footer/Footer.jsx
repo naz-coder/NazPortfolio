@@ -49,6 +49,7 @@ const Footer = () => {
           <p onClick={aboutScrollHandler} className="footer-menu-items-1"><Link to="/" className='menu-link'>About me</Link></p>
           <p onClick={serviceScrollHandler} className="footer-menu-items-2"><Link to="/" className='menu-link'>Services</Link></p>
           <p onClick={porfolioScrollHandler} className="footer-menu-items-3"><Link to="/" className='menu-link'>Portfolio</Link></p>
+          <p className="footer-menu-items-4"><Link to="/gallery" className='menu-link'>Gallery</Link></p>
           <p className="footer-menu-items-4"><Link to="/resume" className='menu-link'>Resume</Link></p>
           </div>
 

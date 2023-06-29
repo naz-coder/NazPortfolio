@@ -111,6 +111,9 @@ a{
   /* font-weight: 900; */
 }
 
+.footer-menu-items p{
+  margin-bottom: -1rem;
+}
 .foot_item p {
   padding: 0 7px 0 7px;
   margin-bottom: 15px;

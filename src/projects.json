@@ -117,5 +117,88 @@
             "dataType": "text",
             "htmlFor": "connect"
         }
+    ],
+    
+    "photos":[
+        {
+            "id": 1000,
+            "image": "photosOfMe/photo1.jpg",
+            "altName": "Naza's Photo1"
+        },
+        {
+            "id": 1001,
+            "image": "photosOfMe/photo16.jpeg",
+            "altName": "Naza's Photo2"
+        },
+        {
+            "id": 1002,
+            "image": "photosOfMe/photo3.jpg",
+            "altName": "Naza's Photo3"
+        },
+        {
+            "id": 1003,
+            "image": "photosOfMe/photo4.jpg",
+            "altName": "Naza's Photo4"
+        },
+        {
+            "id": 1004,
+            "image": "photosOfMe/photo2.jpg",
+            "altName": "Naza's Photo5"
+        },
+        {
+            "id": 1005,
+            "image": "photosOfMe/photo5.jpeg",
+            "altName": "Naza's Photo6"
+        },
+        {
+            "id": 1006,
+            "image": "photosOfMe/photo11.jpg",
+            "altName": "Naza's Photo7"
+        },
+        {
+            "id": 1007,
+            "image": "photosOfMe/photo14.jpg",
+            "altName": "Naza's Photo8"
+        },
+        {
+            "id": 1008,
+            "image": "photosOfMe/photo7.jpg",
+            "altName": "Naza's Photo9"
+        },
+        {
+            "id": 1009,
+            "image": "photosOfMe/photo10.jpg",
+            "altName": "Naza's Photo10"
+        },
+        {
+            "id": 1010,
+            "image": "photosOfMe/photo6.jpg",
+            "altName": "Naza's Photo11"
+        },
+        {
+            "id": 1011,
+            "image": "photosOfMe/photo9.jpg",
+            "altName": "Naza's Photo12"
+        },
+        {
+            "id": 1012,
+            "image": "photosOfMe/photo13.jpg",
+            "altName": "Naza's Photo13"
+        },
+        {
+            "id": 1013,
+            "image": "photosOfMe/photo8.jpg",
+            "altName": "Naza's Photo14"
+        },
+        {
+            "id": 1014,
+            "image": "photosOfMe/photo15.png",
+            "altName": "Naza's Photo15"
+        },
+        {
+            "id": 1015,
+            "image": "photosOfMe/photo17.jpg",
+            "altName": "Naza's Photo16"
+        }
     ]
 }
