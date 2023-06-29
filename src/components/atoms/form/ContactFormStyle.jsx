@@ -271,5 +271,9 @@ button.submit-btn {
     margin-bottom: 0.2rem;
     font-size: 1.2rem;
   }
+
+  .client-contact-detail input, .message-detail textarea{
+    width: 98%;
+  }
 }
 `;
