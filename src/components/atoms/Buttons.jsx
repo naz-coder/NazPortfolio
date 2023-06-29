@@ -4,15 +4,10 @@ import FavourChinazaAnajembaResume from "../../assets/FavourChinazaAnajembaResum
 import { Link } from 'react-router-dom';
 
 const Buttons = ({buttonText}) => {
-    const contactScrollHandler = () => {
-        const sectionElement = document.getElementById("contact");
-        sectionElement.scrollIntoView({behavior: "smooth"});
-      };
-
   return (
     <ButtonStyle>
         <div className='btn-outter'>
-            <button onClick={contactScrollHandler} className='primary-btn'><Link to='/' className='menu-link'>{buttonText}</Link></button>
+            <button className='primary-btn'><Link to='/contact' className='menu-link'>{buttonText}</Link></button>
             <a href={FavourChinazaAnajembaResume} download className='download-btn'> Download CV</a>
         </div>
     </ButtonStyle>

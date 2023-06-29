@@ -33,11 +33,6 @@ const Header = () => {
     sectionElement.scrollIntoView({behavior: "smooth"});
   };
 
-  const contactScrollHandler = () => {
-    const sectionElement = document.getElementById("contact");
-    sectionElement.scrollIntoView({behavior: "smooth"});
-  };
-
   return (
     <HeaderStyle>
       <div className='header' id='header'>
@@ -50,7 +45,7 @@ const Header = () => {
           <li><Link to="/academy" className='menu-link'>CodeSpac</Link></li>
           <li><Link to="/gallery" className='menu-link'>Gallery</Link></li>
           <li><Link to="/resume" className='menu-link'>Resume</Link></li>
-          <li onClick={contactScrollHandler}><Link to="/" className='menu-link'>Contact</Link></li>
+          <li><Link to="/contact" className='menu-link'>Contact</Link></li>
         </ul>
       </nav>
       <nav className='nav_socials'>
@@ -72,7 +67,6 @@ const Header = () => {
         aboutScrollHandler={aboutScrollHandler}
         serviceScrollHandler={serviceScrollHandler}
         porfolioScrollHandler={porfolioScrollHandler} 
-        contactScrollHandler={contactScrollHandler}
         />
       }
     </div>

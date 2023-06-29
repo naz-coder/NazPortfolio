@@ -1,12 +1,12 @@
 import React from "react";
-import { ContactStyle } from "./ContactStyle";
+import { ContactStyle } from "./ContactMeStyle";
 import ContactForm from "../atoms/form/ContactForm";
 import {GrLocation} from "react-icons/gr";
 import {BsPhone} from "react-icons/bs"; 
 import {HiOutlineMail} from "react-icons/hi"; 
 
 
-const Contact = () => {
+const ContactMe = () => {
   return (
     <ContactStyle>
       <div className="contact-container" id="contact">
@@ -53,6 +53,6 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default ContactMe;
 
 

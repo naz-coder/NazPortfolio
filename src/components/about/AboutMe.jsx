@@ -3,11 +3,6 @@ import {AboutMeStyle} from "./AboutMeStyle";
 import { Link } from 'react-router-dom';
 
 const AboutMe = () => {
-   const contactScrollHandler = () => {
-      const sectionElement = document.getElementById("contact");
-      sectionElement.scrollIntoView({behavior: "smooth"});
-    };
-
   return (
     <AboutMeStyle>
         <div id='aboutMe'>
@@ -87,7 +82,7 @@ const AboutMe = () => {
                 </p>
                 <div className='hire-me'>
                   <p className='action-text'>Let's work together.</p>
-                  <button onClick={contactScrollHandler} className='hire-me'><Link to='/' className='menu-link'>Hire me</Link></button>
+                  <button className='hire-me'><Link to='/contact' className='menu-link'>Hire me</Link></button>
                 </div>
             </div>
             </div>
