@@ -32,6 +32,16 @@ const ContactForm = () => {
     formIsValid = true;
   };
 
+  // fetch('https://naz-portfolio-backend.vercel.app/')
+  // .then(response => response.json())
+  // .then(data => {
+  //   console.log('Backend response:', data);
+  // })
+  // .catch(error => {
+  //   console.error('Error:', error);
+  // });
+
+
   const server = `${process.env.REACT_APP_URL}`;
   const formSubmithandler = async (e) => {
     e.preventDefault();
