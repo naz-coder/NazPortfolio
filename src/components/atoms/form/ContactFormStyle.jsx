@@ -241,7 +241,7 @@ export const FormStyle = styled.div`
     font-size: 1rem;
     padding-left: 0.5rem;
     height: 3rem;
-    width: 89%;
+    width: 98%;
   }
 
   .message-detail textarea {
@@ -249,7 +249,7 @@ export const FormStyle = styled.div`
     padding-left: 0.5rem;
     height: 13rem;
     margin-bottom: 1.5rem;
-    width: 89%;
+    width: 98%;
   }
 
 button.submit-btn {
