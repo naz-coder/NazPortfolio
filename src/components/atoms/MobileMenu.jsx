@@ -20,6 +20,12 @@ const MobileMenu = ({closeModal, aboutScrollHandler, serviceScrollHandler, porfo
     closeModal();
   }
 
+  const contactMenuControl = () => {
+    contactScrollHandler();
+    closeModal();
+  }
+
+
   return (
     <MobileMenuStyle>
       <div className='mobile_menu_outter'>
@@ -31,7 +37,7 @@ const MobileMenu = ({closeModal, aboutScrollHandler, serviceScrollHandler, porfo
           <li><Link to="/academy" className='menu-link'>CodeSpac</Link></li>
           <li><Link to="/gallery" className='menu-link'>Gallery</Link></li>
           <li><Link to="/resume" className='menu-link'>Resume</Link></li>
-          <li><Link to="/contact" className='menu-link'>Contact</Link></li>
+          <li onClick={contactMenuControl}><Link to='/' className='menu-link'>Contact</Link></li>
         </ul>
       </nav>
       <nav className='mobile_menu_socials'>
