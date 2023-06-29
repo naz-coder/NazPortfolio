@@ -40,7 +40,7 @@ const ContactForm = () => {
       return;
     }
 
-    const response = await fetch(`${server}/send`, {
+    const response = await fetch(`${server}send`, {
       method: "POST",
       headers: {
         "Content-type": "application/json",
