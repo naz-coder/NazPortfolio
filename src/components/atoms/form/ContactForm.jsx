@@ -42,36 +42,36 @@ const ContactForm = () => {
       return;
     }
 
-    const response = await fetch(`${server}/send`, {
-      method: "POST",
-      headers: {
-        "Content-type": "application/json",
-        'Access-Control-Allow-Origin': '*'
-      },
-      body: JSON.stringify({
-        mails: {
-          nameValue,
-          emailValue,
-          connectValue,
-          messageValue
-        }
-      }),
-    }).then((res) => res.json())
-      .then((resData) => {
-        if (resData.status === "success") {
-          alert("Message Sent");
-          nameReset();
-          emailReset();
-          connectReset();
-          messageReset();
-        } else if (resData.status === "fail") {
-          // alert("Message failed to send");
-        }
-      })
-      .catch((error) => {
-        console.error("Error:", error);
-      });
-      console.log(nameValue, emailValue, connectValue, messageValue);
+    // const response = await fetch(`${server}/send`, {
+    //   method: "POST",
+    //   headers: {
+    //     "Content-type": "application/json",
+    //     'Access-Control-Allow-Origin': '*'
+    //   },
+    //   body: JSON.stringify({
+    //     mails: {
+    //       nameValue,
+    //       emailValue,
+    //       connectValue,
+    //       messageValue
+    //     }
+    //   }),
+    // }).then((res) => res.json())
+    //   .then((resData) => {
+    //     if (resData.status === "success") {
+    //       alert("Message Sent");
+    //       nameReset();
+    //       emailReset();
+    //       connectReset();
+    //       messageReset();
+    //     } else if (resData.status === "fail") {
+    //       // alert("Message failed to send");
+    //     }
+    //   })
+    //   .catch((error) => {
+    //     console.error("Error:", error);
+    //   });
+    //   console.log(nameValue, emailValue, connectValue, messageValue);
     
 
       // Email JS
