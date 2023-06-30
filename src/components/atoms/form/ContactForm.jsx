@@ -44,6 +44,7 @@ const ContactForm = () => {
       method: "POST",
       headers: {
         "Content-type": "application/json",
+        'Access-Control-Allow-Origin': '*'
       },
       body: JSON.stringify({
         mails: {
@@ -68,6 +69,8 @@ const ContactForm = () => {
       .catch((error) => {
         console.error("Error:", error);
       });
+      console.log(nameValue, emailValue, connectValue, messageValue);
+    
   };
 
   return (
