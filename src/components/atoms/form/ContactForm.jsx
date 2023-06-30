@@ -65,7 +65,7 @@ const ContactForm = () => {
           connectReset();
           messageReset();
         } else if (resData.status === "fail") {
-          alert("Message failed to send");
+          // alert("Message failed to send");
         }
       })
       .catch((error) => {
@@ -80,7 +80,13 @@ const ContactForm = () => {
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
-      });
+      }
+      );
+      nameReset();
+          emailReset();
+          connectReset();
+          messageReset();
+
   };
 
   return (
