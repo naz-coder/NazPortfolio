@@ -1,5 +1,6 @@
 import React from "react";
 import { FormStyle } from "./ContactFormStyle";
+import emailjs from '@emailjs/browser';
 import useInputs from "../../../customHooks/useInputs";
 
 const isNotEmpty = value => value.trim() !== "";
@@ -71,11 +72,19 @@ const ContactForm = () => {
       });
       console.log(nameValue, emailValue, connectValue, messageValue);
     
+
+      // Email JS
+      emailjs.sendForm('service_hcmid5t', 'template_ayracqa', form.current, 'XuRB2YQSYddaQC7bw')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
   };
 
   return (
     <FormStyle>
-      <form className="contact-form" onSubmit={formSubmithandler}>
+      <form className="contact-form" ref={form} onSubmit={formSubmithandler}>
         <div className={nameClasses}>
           <label htmlFor="name">Name:</label>
           <input id="name" name="name" placeholder="Enter your name" 
@@ -119,7 +128,7 @@ const ContactForm = () => {
           ></textarea>
           {messageHasError && <p className="error-msg-textarea">Please enter a message</p>}
         </div>
-        <button disabled={!formIsValid} type="submit" className="submit-btn">Send</button>
+        <button value="Send" disabled={!formIsValid} type="submit" className="submit-btn">Send</button>
       </form>
     </FormStyle>
   );
