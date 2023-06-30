@@ -1,6 +1,5 @@
 import React from 'react'
 import {BrowserRouter as  Router, Routes, Route } from "react-router-dom";
-import emailjs from '@emailjs/browser';
 import Home from "./pages/Home"
 import Academy from './pages/Academy';
 import Gallery from './pages/Gallery';

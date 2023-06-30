@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useRef} from "react";
 import { FormStyle } from "./ContactFormStyle";
 import emailjs from '@emailjs/browser';
 import useInputs from "../../../customHooks/useInputs";
@@ -7,6 +7,7 @@ const isNotEmpty = value => value.trim() !== "";
 const isEmail = value => value.includes('@');
 
 const ContactForm = () => {
+  const form = useRef();
   // Form validation with custom hooks
   const {
     value: nameValue, isValid: nameIsValid, hasError: nameHasError, valueChangeHandler: nameChangeHandler, valueBlurHandler: nameBlurHandler, reset: nameReset
