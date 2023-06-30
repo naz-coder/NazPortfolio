@@ -45,14 +45,14 @@ const ContactForm = () => {
       headers: {
         "Content-type": "application/json",
       },
-      body: JSON.stringify({
-        mails: {
-          nameValue,
-          emailValue,
-          connectValue,
-          messageValue
-        }
-      }),
+      // body: JSON.stringify({
+      //   mails: {
+      //     nameValue,
+      //     emailValue,
+      //     connectValue,
+      //     messageValue
+      //   }
+      // }),
     }).then((res) => res.json())
       .then((resData) => {
         if (resData.status === "success") {
