@@ -20,14 +20,16 @@ const ResumeComponent = () => {
           <div className="summary">
             <p className="summary-name">Favour Chinaza Anajemba-Agada</p>
             <p className="summary-desc">
-              Experienced developer with 3+ years and skilled in HTML, CSS,
+            Experienced developer with 3+ years and skilled in HTML, CSS,
               JavaScript, C, Ruby, ExpressJS, ReactJS, NextJS, SQlite, Apollo
-              GraphQL, and CMS (Shopify, Wix, and WordPress). Strong soft skills
+              GraphQL, Styled Component, SASS, Prime React, React Bootstrap, 
+              Tailwind CSS, Material UI and CMS (Shopify, Wix, and WordPress). Strong soft skills
               in teamwork, attention to detail, and problem-solving. Proven
               track record of meeting deadlines and satisfying clients.
               Impressive portfolio with projects including ecommerce, traffic
               update app, games, biography website, fintech loan app, and
-              residential apartment search platform.{" "}
+              residential apartment search platform. I am familiar with tools 
+              such as Git, Tirello, Jira, Notion amongst many others.
             </p>
             <ul className="summary-details">
               <li>nazanajemba@gmail.com</li>
