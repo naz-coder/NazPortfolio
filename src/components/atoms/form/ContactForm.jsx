@@ -2,6 +2,7 @@ import React, {useRef} from "react";
 import { FormStyle } from "./ContactFormStyle";
 import emailjs from '@emailjs/browser';
 import useInputs from "../../../customHooks/useInputs";
+import Swal from "sweetalert2";
 
 const isNotEmpty = value => value.trim() !== "";
 const isEmail = value => value.includes('@');
@@ -77,9 +78,26 @@ const ContactForm = () => {
       // Email JS
       emailjs.sendForm('service_hcmid5t', 'template_ayracqa', form.current, 'XuRB2YQSYddaQC7bw')
       .then((result) => {
-          console.log(result.text);
+          // console.log(result.text);
+          Swal.fire({
+            title: "Message sent successfully!",
+            text: "Our contact person will respond to your message shortly. Thanks!",
+            icon: 'success',
+            confirmButtonText: 'OK',
+            confirmButtonColor: '#8e5c1d',
+            timer: 3000,
+            position: 'center'
+          })
       }, (error) => {
-          console.log(error.text);
+          // console.log(error.text);
+          Swal.fire({
+            title: "Error sending message",
+            text: "Try again later. You can reach us via direct phone call or through our social media channels. Thanks!",
+            icon: 'error',
+            timer: 3000,
+            position: 'center'
+
+          })
       }
       );
       nameReset();
