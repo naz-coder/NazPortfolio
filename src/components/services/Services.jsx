@@ -49,7 +49,7 @@ const Services = () => {
                 <h2 className='service-title'>Search Engine Optimization (SEO)</h2>
               </div>
                 <p className='service-description'>To enhance site visibility and rankings on Google, I incorporate best SEO practices, such as 
-                  utilizing "Semantic HTML" and implementing other effective strategies across the platforms.</p>
+                  utilizing "Semantic HTML", Meta, Sitemaps, Google Search Console and implementing other effective strategies across the platforms.</p>
             </div>
             <div className='cards-4'>
               <div className='card-title-outter'>
