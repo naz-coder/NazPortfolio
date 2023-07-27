@@ -2,12 +2,12 @@
     "projects": [
         {
             "id": 1000,
-            "name": "Kalakuta",
-            "image": "projectThumbnails/kalakuta.png",
-            "altName": "kalakuta thumbnail",
-            "link": "https://kalakuta.vercel.app/",
+            "name": "Abidack Mobile Toilet",
+            "image": "projectThumbnails/abidack.png",
+            "altName": "abidack thumbnail",
+            "link": "https://www.abidackmobiletoilet.com/",
             "credit": "Naz-coder",
-            "stack": "HTML, CSS, JavaScript"
+            "stack": "NextJS, Styled Compo., EmailJS, Flutterwave"
         },
         {
             "id": 1001,
@@ -20,24 +20,16 @@
         },
         {
             "id": 1002,
-            "name": "Poketan",
-            "image": "projectThumbnails/poketan.png",
-            "altName": "poketan thumbnail",
-            "link": "https://poketan.vercel.app/",
+            "name": "Kalakuta",
+            "image": "projectThumbnails/kalakuta.png",
+            "altName": "kalakuta thumbnail",
+            "link": "https://kalakuta.vercel.app/",
             "credit": "Naz-coder",
-            "stack": "ReactJS, Styled Component"
+            "stack": "HTML, CSS, JavaScript"
+
         },
         {
             "id": 1003,
-            "name": "Trafap",
-            "image": "projectThumbnails/trafap.png",
-            "altName": "trafap thumbnail",
-            "link": "https://trafap.vercel.app/",
-            "credit": "Naz-coder",
-            "stack": "NextJS, SASS/SCSS, Tailwind CSS, Material UI"
-        },
-        {
-            "id": 1004,
             "name": "Cash Vision",
             "image": "projectThumbnails/cashvision.png",
             "altName": "cashvision thumbnail",
@@ -46,7 +38,25 @@
             "stack": "Shopify CMS"
         },
         {
+            "id": 1004,
+            "name": "Trafap",
+            "image": "projectThumbnails/trafap.png",
+            "altName": "trafap thumbnail",
+            "link": "https://trafap.vercel.app/",
+            "credit": "Naz-coder",
+            "stack": "ReactJS, SASS/SCSS, Tailwind CSS, Material UI"
+        },
+        {
             "id": 1005,
+            "name": "Poketan",
+            "image": "projectThumbnails/poketan.png",
+            "altName": "poketan thumbnail",
+            "link": "https://poketan.vercel.app/",
+            "credit": "Naz-coder",
+            "stack": "ReactJS, Styled Component"
+        },
+        {
+            "id": 1006,
             "name": "Tetris Game",
             "image": "projectThumbnails/tetris.png",
             "altName": "tetris thumbnail",
@@ -55,7 +65,7 @@
             "stack": "HTML, CSS, JavaScript"
         },
         {
-            "id": 1006,
+            "id": 1007,
             "name": "NazPortfolio",
             "image": "projectThumbnails/naazaa.png",
             "altName": "NazAnajemba thumbnail",
@@ -64,7 +74,7 @@
             "stack": "ReactJS, Styled Compo., ExpressJS, Nodemailer"
         },
         {
-            "id": 1007,
+            "id": 1008,
             "name": "Greencitie",
             "image": "projectThumbnails/greencitie.png",
             "altName": "greencitie thumbnail",
@@ -73,22 +83,13 @@
             "stack": "WordPress CMS"
         },
         {
-            "id": 1008,
+            "id": 1009,
             "name": "Corper Casa",
             "image": "projectThumbnails/corpercasa.png",
             "altName": "corpercasa thumbnail",
             "link": "https://corpercasa.vercel.app/",
             "credit": "Naz-coder",
             "stack": "HTML, CSS, BootStrap CSS, JavaScript"
-        },
-        {
-            "id": 1009,
-            "name": "Builder Coin",
-            "image": "projectThumbnails/builderCoin.png",
-            "altName": "builderCoin thumbnail",
-            "link": "https://builder-app-theta.vercel.app/",
-            "credit": "Naz-coder",
-            "stack": "ReactJS, CSS"
         }
     ],
 

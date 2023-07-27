@@ -81,7 +81,7 @@ const ContactForm = () => {
           // console.log(result.text);
           Swal.fire({
             title: "Message sent successfully!",
-            text: "Our contact person will respond to your message shortly. Thanks!",
+            text: "We will respond to your message shortly. Thanks!",
             icon: 'success',
             confirmButtonText: 'OK',
             confirmButtonColor: '#8e5c1d',
