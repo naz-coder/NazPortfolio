@@ -29,7 +29,7 @@ const ResumeComponent = () => {
               Impressive portfolio with projects including ecommerce, traffic
               update app, games, biography website, fintech loan app, and
               residential apartment search platform. I am familiar with tools 
-              such as Git, Tirello, Jira, Notion, payment gateways(Flutterwave and Paystack), messaging playforms(EmailJS, Nodemailer, and Sendgrid) amongst many others.
+              such as Git, Tirello, Jira, Notion, payment gateways(Flutterwave and Paystack), messaging platforms(EmailJS, Nodemailer, and Sendgrid) amongst many others.
             </p>
             <ul className="summary-details">
               <li>nazanajemba@gmail.com</li>
