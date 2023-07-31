@@ -25,7 +25,7 @@ const Services = () => {
             <div className='cards-1'>
                 <div className='card-title-outter'>
                   <img src={frontendDevIcon} alt='Frontend Dev Icon'/>
-                  <h2 className='service-title'>Frontend Development</h2>
+                  <h2 className='service-title'>Software Development</h2>
                 </div>
                 <p className='service-description'>I specialize in developing responsive websites for various purposes, including 
                   Ecommerce, Financial Platforms, Landing Pages, ELearning Platforms, Portfolios, Blogs, 
@@ -34,7 +34,7 @@ const Services = () => {
             <div className='cards-2'>
                 <div className='card-title-outter'>
                   <img src={cmsIcon} alt='CMS Icon'/>
-                  <h2 className='service-title'>No-Code Development</h2>
+                  <h2 className='service-title'>Low-Code Development</h2>
                 </div>
                 <p className='service-description'>Using these tools; Wix, Shopify, WooCommerce and WordPress, I develop responsive 
                   websites for various purposes, including Ecommerce, Landing Pages, Portfolios, Blogs, 

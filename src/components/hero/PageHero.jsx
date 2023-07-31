@@ -8,9 +8,9 @@ const PageHero = () => {
     <PageHeroStyle>
         <div className='hero-container' id='heroSection'>
             <div className="description">
-                <p className='section-title'>Frontend Web Developer | Content Writer</p>
+                <p className='section-title'>Software Developer | Content Writer</p>
                 <h1 className='section-name'>Favour Chinaza Anajemba-Agada</h1>
-                <p className='section-description'>I am a passionate Frontend Web Developer dedicated to creating impactful solutions for 
+                <p className='section-description'>I am a passionate Software Developer dedicated to creating impactful solutions for 
                     companies and individuals by delivering seamless user experiences using latest technologies and best practices.
                 </p>
                 <div className='hero-btn'>
