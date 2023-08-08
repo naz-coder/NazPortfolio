@@ -23,7 +23,7 @@ const ResumeComponent = () => {
             Experienced developer with 3+ years and skilled in HTML, CSS,
               JavaScript, C, Ruby, ExpressJS, ReactJS, NextJS, SQlite, Apollo
               GraphQL, Styled Component, SASS, Prime React, React Bootstrap, 
-              Tailwind CSS, Material UI and CMS (Shopify, Wix, and WordPress). Strong soft skills
+              Tailwind CSS, Material UI, Firebase, AWS, and CMS (Shopify, Wix, and WordPress). Strong soft skills
               in teamwork, attention to detail, and problem-solving. Proven
               track record of meeting deadlines and satisfying clients.
               Impressive portfolio with projects including ecommerce, traffic
