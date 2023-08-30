@@ -2,6 +2,15 @@
     "projects": [
         {
             "id": 1000,
+            "name": "Chosen Vessels Global Outreach",
+            "image": "projectThumbnails/cvgo.png",
+            "altName": "CVGO thumbnail",
+            "link": "https://www.chosenvesselsgo.org/",
+            "credit": "Naz-coder",
+            "stack": "NextJS, Styled Compo., Nodemailer, Flutterwave"
+        },
+        {
+            "id": 1001,
             "name": "Abidack Mobile Toilet",
             "image": "projectThumbnails/abidack.png",
             "altName": "abidack thumbnail",
@@ -10,7 +19,16 @@
             "stack": "NextJS, Styled Compo., EmailJS, Flutterwave"
         },
         {
-            "id": 1001,
+            "id": 1002,
+            "name": "Cash Vision",
+            "image": "projectThumbnails/cashvision.png",
+            "altName": "cashvision thumbnail",
+            "link": "https://cashvision.org/",
+            "credit": "Naz-coder for Milantiawebs",
+            "stack": "Shopify CMS"
+        },
+        {
+            "id": 1003,
             "name": "Quantmworld",
             "image": "projectThumbnails/quantmWorld.png",
             "altName": "quantmWorld thumbnail",
@@ -19,7 +37,7 @@
             "stack": "Shopify CMS"
         },
         {
-            "id": 1002,
+            "id": 1004,
             "name": "Kalakuta",
             "image": "projectThumbnails/kalakuta.png",
             "altName": "kalakuta thumbnail",
@@ -29,16 +47,7 @@
 
         },
         {
-            "id": 1003,
-            "name": "Cash Vision",
-            "image": "projectThumbnails/cashvision.png",
-            "altName": "cashvision thumbnail",
-            "link": "https://cashvision.org/",
-            "credit": "Naz-coder for Milantiawebs",
-            "stack": "Shopify CMS"
-        },
-        {
-            "id": 1004,
+            "id": 1005,
             "name": "Trafap",
             "image": "projectThumbnails/trafap.png",
             "altName": "trafap thumbnail",
@@ -47,7 +56,7 @@
             "stack": "ReactJS, SASS/SCSS, Tailwind CSS, Material UI"
         },
         {
-            "id": 1005,
+            "id": 1006,
             "name": "Poketan",
             "image": "projectThumbnails/poketan.png",
             "altName": "poketan thumbnail",
@@ -56,22 +65,13 @@
             "stack": "ReactJS, Styled Component"
         },
         {
-            "id": 1006,
+            "id": 1007,
             "name": "Tetris Game",
             "image": "projectThumbnails/tetris.png",
             "altName": "tetris thumbnail",
             "link": "https://tetris-game-techsis.vercel.app/",
             "credit": "Naz-coder",
             "stack": "HTML, CSS, JavaScript"
-        },
-        {
-            "id": 1007,
-            "name": "NazPortfolio",
-            "image": "projectThumbnails/naazaa.png",
-            "altName": "NazAnajemba thumbnail",
-            "link": "https://nazanajemba.vercel.app/",
-            "credit": "Naz-coder",
-            "stack": "ReactJS, Styled Compo., ExpressJS, Nodemailer"
         },
         {
             "id": 1008,
