@@ -56,8 +56,9 @@ const Footer = () => {
         </div>
         <div className="foot_ite">
           <p className="footer-menu-subtitle">KEEP IN TOUCH</p>
-          <p className="footer-item-p">FCT - Abuja, Nigeria</p>
-          <p className="footer-item-p">Naza: (+234) 8167265619</p>
+          <p className="footer-item-p">Bolton - United Kingdom</p>
+          <p className="footer-item-p">Naza: (+44) 7719 130342</p>
+          {/* <p className="footer-item-p">Naza: (+234) 8167265619</p> */}
         </div>
         <div className="">
           <p className="footer-menu-subtitle-socials">CONNECT</p>

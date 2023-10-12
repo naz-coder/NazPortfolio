@@ -33,7 +33,8 @@ const ResumeComponent = () => {
             </p>
             <ul className="summary-details">
               <li>nazanajemba@gmail.com</li>
-              <li>+234 8167-265-619</li>
+              <li>+447719130342</li>
+              {/* <li>+234 8167-265-619</li> */}
             </ul>
           </div>
           <div className="education">
