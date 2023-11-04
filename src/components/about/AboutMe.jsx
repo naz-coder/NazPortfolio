@@ -57,6 +57,10 @@ const AboutMe = () => {
                     <label for="file">Bootstrap 96%</label>
                     <progress id="file" value="96" max="100">96%</progress>
                  </div>
+                 <div>
+                    <label for="file">Java 45%</label>
+                    <progress id="file" value="40" max="100">45%</progress>
+                 </div>
                 </div>
             <div className="about">
                 <h3 className='about-subtitle'>About me</h3>

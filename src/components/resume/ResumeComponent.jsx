@@ -21,7 +21,7 @@ const ResumeComponent = () => {
             <p className="summary-name">Favour Chinaza Anajemba-Agada</p>
             <p className="summary-desc">
             Experienced developer with 3+ years and skilled in HTML, CSS,
-              JavaScript, C, Ruby, ExpressJS, ReactJS, NextJS, SQlite, Apollo
+              JavaScript, C, Ruby, Java, ExpressJS, ReactJS, NextJS, SQlite, Apollo
               GraphQL, Styled Component, SASS, Prime React, React Bootstrap, 
               Tailwind CSS, Material UI, Firebase, AWS, and CMS (Shopify, Wix, and WordPress). Strong soft skills
               in teamwork, attention to detail, and problem-solving. Proven
@@ -87,8 +87,22 @@ const ResumeComponent = () => {
           <div className="education">
             <h3 className="exp-subtitle">Professional Experience</h3>
             <div className="exp-ogtl">
+              <p className="exp-name">Lead Tutor - Science and Engineering</p>
+              <p className="exp-duration">Nov. 2023 - Present</p>
+              <p className="exp-location">
+                National Saturday Club, Manchester Metropolitan University - UK
+              </p>
+              <ul className="exp-activities">
+              <li>Collaborating with existing university resources to integrate my program into a wider network of outreach and engagement opportunities for the club members.</li>
+              <li>Taking charge of monitoring and evaluating the club’s performance, utilizing provided resources.</li>
+              <li>Providing mentorship and guidance to Club co-facilitators, recruited through RISE, to assist in program delivery and empower them to conduct their own sessions with my support.</li>
+              <li>Participating in team meetings, trainings, brainstorming sessions, and knowledge sharing activities.</li>
+              <li>Leading the club group on a trip to London for an annual showcase at Somerset House. This event serves as a platform to celebrate and showcase everyone’s work in a professional environment.</li>
+            </ul>
+            </div>
+            <div className="exp-ogtl">
               <p className="exp-name">Software Developer</p>
-              <p className="exp-duration">2023-Present</p>
+              <p className="exp-duration">Apr. 2023 - Sep. 2023</p>
               <p className="exp-location">
                 Outsource Global Technologies Ltd, Abuja - Nigeria
               </p>
@@ -102,7 +116,7 @@ const ResumeComponent = () => {
             </div>
             <div className="exp-milantiawebs">
               <p className="exp-name">Freelance Frontend Developer</p>
-              <p className="exp-duration">2022-Present</p>
+              <p className="exp-duration">Dec. 2022 - Present</p>
               <p className="exp-location">
                 Milantiawebs, London - UK
               </p>
@@ -116,7 +130,7 @@ const ResumeComponent = () => {
             </div>
             <div className="exp-deep">
               <p className="exp-name">Frontend Developer</p>
-              <p className="exp-duration">2022-2022</p>
+              <p className="exp-duration">Sep. 2022 - Dec. 2022</p>
               <p className="exp-location">
                 Deep Technologies Ltd, Abuja - Nigeria
               </p>
@@ -132,7 +146,7 @@ const ResumeComponent = () => {
             </div>
             <div className="exp-iykemedia">
               <p className="exp-name">Freelance Frontend Developer || Content Writer</p>
-              <p className="exp-duration">2020-2022</p>
+              <p className="exp-duration">May 2020 - Jul. 2022</p>
               <p className="exp-location">
               Iykemedia Branding Concepts, Anambra - Nigeria
               </p>
@@ -145,8 +159,8 @@ const ResumeComponent = () => {
             </ul>
             </div>
             <div className="exp-nts">
-              <p className="exp-name">IT Support || Content Writer</p>
-              <p className="exp-duration">2019-2020</p>
+              <p className="exp-name">IT Support || Content Writer - Contract</p>
+              <p className="exp-duration">Nov. 2019 - Apr. 2020</p>
               <p className="exp-location">
               Naija Talent Search, Abuja - Nigeria
               </p>
@@ -160,11 +174,12 @@ const ResumeComponent = () => {
             </div>
             <div className="exp-dfc">
               <p className="exp-name">Computer Operator || Instructor</p>
-              <p className="exp-duration">2009-2012</p>
+              <p className="exp-duration">Jan. 2009 - Aug. 2012</p>
               <p className="exp-location">
                 Divine Favour Computer Institute, Sokoto - Nigeria
               </p>
-              <ul className="exp-activities">
+              <ul className="exp-activities">    /* margin-top: 1.9rem; */
+
                 <li>Through my expertise and guidance, I enhanced participants' proficiency in using Microsoft Word, Excel, PowerPoint, and other Office applications, enabling them to create professional documents, analyze data effectively, and deliver impactful presentations.</li>
                 <li>By implementing macros, templates, and advanced functions, I improved efficiency, reduced manual effort, and enhanced productivity for both myself and the users I supported.</li>
                 <li>Demonstrated strong problem-solving skills and provided prompt technical support to users encountering Microsoft Office-related issues.</li>

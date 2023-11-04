@@ -119,9 +119,7 @@ export const ResumeStyle = styled.div`
     margin-top: -0.3rem;
   }
 
-  .edu-duration,
-  .exp-duration {
-    /* margin-top: 1.9rem; */
+  .edu-duration{
     background-color: #d69b81;
     background-position: right bottom;
     transition: all 0.3s ease-out;
@@ -130,6 +128,19 @@ export const ResumeStyle = styled.div`
     justify-content: center;
     align-items: center;
     width: 5.7rem;
+    height: 1.5rem;
+    font-weight: 900;
+  }
+
+  .exp-duration {
+    background-color: #d69b81;
+    background-position: right bottom;
+    transition: all 0.3s ease-out;
+    padding: 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
     height: 1.5rem;
     font-weight: 900;
   }
