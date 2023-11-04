@@ -178,8 +178,7 @@ const ResumeComponent = () => {
               <p className="exp-location">
                 Divine Favour Computer Institute, Sokoto - Nigeria
               </p>
-              <ul className="exp-activities">    /* margin-top: 1.9rem; */
-
+              <ul className="exp-activities">   
                 <li>Through my expertise and guidance, I enhanced participants' proficiency in using Microsoft Word, Excel, PowerPoint, and other Office applications, enabling them to create professional documents, analyze data effectively, and deliver impactful presentations.</li>
                 <li>By implementing macros, templates, and advanced functions, I improved efficiency, reduced manual effort, and enhanced productivity for both myself and the users I supported.</li>
                 <li>Demonstrated strong problem-solving skills and provided prompt technical support to users encountering Microsoft Office-related issues.</li>
