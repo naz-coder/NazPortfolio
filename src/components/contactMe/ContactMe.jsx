@@ -25,7 +25,7 @@ const ContactMe = () => {
             <div className="details">
               <div className="location-section"><li className="location-icon"><GrLocation/></li></div>
               <div><h3>Location:</h3>
-              <p>Federal Capital Territory - Abuja</p></div>
+              <p>Bolton - United Kingdom</p></div>
             </div>
             <div className="details">
               <div className="email-section"><li className="email-icon"><HiOutlineMail/></li></div>
@@ -34,12 +34,14 @@ const ContactMe = () => {
             </div>
             <div className="details">
                 <div className="phone-section"><li className="phone-icon"><BsPhone/></li></div>
-                <div><h3>Call or Whatsapp:</h3>
+                <div><h3>Call:</h3>
+                <p>+447 71913 0342</p>
+                <h3>Whatsapp:</h3>
                 <p>+234 81672 65619</p></div>
             </div>
             <div>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126093.84997815848!2d7.293976111023852!3d9.024223146857969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e745f4cd62fd9%3A0x53bd17b4a20ea12b!2sAbuja%2C%20Federal%20Capital%20Territory!5e0!3m2!1sen!2sng!4v1685570324771!5m2!1sen!2sng"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37891.26440684608!2d-2.4955179631411726!3d53.5898211242257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b0629dc3b1c93%3A0xcaa40cfafe557822!2sBolton!5e0!3m2!1sen!2suk!4v1699113684552!5m2!1sen!2suk"
                 style={{ border: "0" }}
                 allowfullscreen=""
                 loading="lazy"

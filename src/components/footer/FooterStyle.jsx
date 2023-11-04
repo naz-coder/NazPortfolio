@@ -178,6 +178,10 @@ a{
   .footer-item-p{
     margin-top: -0.8%;
   }
+
+  .learn_title{
+    padding-top: 1.5rem;
+  }
   .footer-menu-subtitle-socials{
     display: none;
   }
@@ -219,7 +223,7 @@ a{
 }
 
 .footer-menu-items-2, .footer-menu-items-3, .footer-menu-items-4{
-  margin-top: -0.5rem;
+  margin-top: 0.9rem;
 }
 }
 `
