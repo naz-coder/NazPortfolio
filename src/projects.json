@@ -5,7 +5,7 @@
             "name": "Chosen Vessels Global Outreach",
             "image": "projectThumbnails/cvgo.png",
             "altName": "CVGO thumbnail",
-            "link": "https://chosen-vessels-go.vercel.app/",
+            "link": "https://chosen-vessels-go.vercel.app",
             "credit": "Naz-coder",
             "stack": "NextJS, Styled Compo., Nodemailer, Flutterwave"
         },
