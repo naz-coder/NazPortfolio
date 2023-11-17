@@ -39,6 +39,13 @@ const ResumeComponent = () => {
           </div>
           <div className="education">
             <h3 className="edu-subtitle">Education</h3>
+            {/* <div className="edu-unn">
+              <p className="edu-name">MSc Advanced Computer Science</p>
+              <p className="edu-duration">2023-2024</p>
+              <p className="edu-location uk-location">
+                Manchester Metropolitan University, Manchester - United Kingdom
+              </p>
+            </div> */}
             <div className="edu-unn">
               <p className="edu-name">BSc Zoology and Environmental Biology</p>
               <p className="edu-duration">2014-2018</p>
