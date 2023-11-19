@@ -115,7 +115,7 @@ const ResumeComponent = () => {
               </p>
               <ul className="exp-activities">
               <li>Collaborating with senior developers and team members to understand project requirements and specifications.</li>
-              <li>Writing clean, efficient, and maintainable code using appropriate programming languages and frameworks.</li>
+              <li>Writing clean, efficient, and maintainable code using appropriate programming languages and frameworks. Contributed to the Frontend development of the IDEC platform.</li>
               <li>Debugging and troubleshooting software issues, identifying and implementing solutions.</li>
               <li>Keeping up-to-date with emerging technologies and industry trends.</li>
               <li>Participating in team meetings, brainstorming sessions, and knowledge sharing activities.</li>
