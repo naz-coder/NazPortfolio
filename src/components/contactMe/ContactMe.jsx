@@ -41,7 +41,7 @@ const ContactMe = () => {
             </div>
             <div>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37891.26440684608!2d-2.4955179631411726!3d53.5898211242257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b0629dc3b1c93%3A0xcaa40cfafe557822!2sBolton!5e0!3m2!1sen!2suk!4v1699113684552!5m2!1sen!2suk"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d75993.27277466873!2d-2.3058624344185374!3d53.47221711048824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487a4d4c5226f5db%3A0xd9be143804fe6baa!2sManchester!5e0!3m2!1sen!2suk!4v1700592231568!5m2!1sen!2suk"
                 style={{ border: "0" }}
                 allowfullscreen=""
                 loading="lazy"
