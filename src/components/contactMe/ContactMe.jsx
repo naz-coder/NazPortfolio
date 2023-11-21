@@ -25,7 +25,7 @@ const ContactMe = () => {
             <div className="details">
               <div className="location-section"><li className="location-icon"><GrLocation/></li></div>
               <div><h3>Location:</h3>
-              <p>Bolton - United Kingdom</p></div>
+              <p>Manchester - United Kingdom</p></div>
             </div>
             <div className="details">
               <div className="email-section"><li className="email-icon"><HiOutlineMail/></li></div>

@@ -20,7 +20,7 @@ const ResumeComponent = () => {
           <div className="summary">
             <p className="summary-name">Favour Chinaza Anajemba-Agada</p>
             <p className="summary-desc">
-            Experienced developer with 3+ years and skilled in HTML, CSS,
+              Experienced developer with 3+ years and skilled in HTML, CSS,
               JavaScript, C, Ruby, Java, ExpressJS, ReactJS, NextJS, SQL, SQlite, Apollo
               GraphQL, Styled Component, SASS, Prime React, React Bootstrap, 
               Tailwind CSS, Material UI, Firebase, AWS, and CMS (Shopify, Wix, and WordPress). Strong soft skills
