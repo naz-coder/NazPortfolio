@@ -21,7 +21,7 @@ const ResumeComponent = () => {
             <p className="summary-name">Favour Chinaza Anajemba-Agada</p>
             <p className="summary-desc">
               Experienced developer with 3+ years and skilled in HTML, CSS,
-              JavaScript, C, Ruby, Java, ExpressJS, ReactJS, NextJS, SQL, SQlite, Apollo
+              JavaScript, C, Ruby, Java, ExpressJS, ReactJS, NextJS, NextTS, SQL, SQlite, Apollo
               GraphQL, Styled Component, SASS, Prime React, React Bootstrap, 
               Tailwind CSS, Material UI, Firebase, AWS, and CMS (Shopify, Wix, and WordPress). Strong soft skills
               in teamwork, attention to detail, and problem-solving. Proven
@@ -115,7 +115,8 @@ const ResumeComponent = () => {
               </p>
               <ul className="exp-activities">
               <li>Collaborating with senior developers and team members to understand project requirements and specifications.</li>
-              <li>Writing clean, efficient, and maintainable code using appropriate programming languages and frameworks. Contributed to the Frontend development of the IDEC platform.</li>
+              <li>Writing clean, efficient, and maintainable code using appropriate programming languages and frameworks. </li>
+              <li>ontributed to the Frontend development of the IDEC (Import Duty Exemption Certificate) platform for the Federal Govt of Nigeria.</li>
               <li>Debugging and troubleshooting software issues, identifying and implementing solutions.</li>
               <li>Keeping up-to-date with emerging technologies and industry trends.</li>
               <li>Participating in team meetings, brainstorming sessions, and knowledge sharing activities.</li>
