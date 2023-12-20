@@ -45,6 +45,8 @@ const Header = () => {
           <li><Link to="/academy" className='menu-link'>CodeSpac</Link></li>
           <li><Link to="/gallery" className='menu-link'>Gallery</Link></li>
           <li><Link to="/resume" className='menu-link'>Resume</Link></li>
+          <li><Link to="/podcast" className='menu-link'>Podcast</Link></li>
+          <li><Link to="/blog" className='menu-link'>Blog</Link></li>
           <li><Link to="/contact" className='menu-link'>Contact</Link></li>
         </ul>
       </nav>

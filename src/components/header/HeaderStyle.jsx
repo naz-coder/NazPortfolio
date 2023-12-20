@@ -82,6 +82,12 @@ li:hover{
 }
 
 /* MEDIA QUERY */
+@media (max-width: 1024px) {
+  padding: 1rem 1.5rem;
+
+
+}
+
 @media (max-width: 960px) {
   padding: 1rem 3rem;
   font-size: 0.8rem;
