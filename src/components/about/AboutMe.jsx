@@ -22,12 +22,12 @@ const AboutMe = () => {
                     <progress id="file" value="75" max="100">75%</progress>
                  </div>
                  <div>
-                    <label for="file">ReactJS 65%</label>
-                    <progress id="file" value="65" max="100">65%</progress>
+                    <label for="file">ReactJS 80%</label>
+                    <progress id="file" value="80" max="100">65%</progress>
                  </div>
                  <div>
-                    <label for="file">NextJS 60%</label>
-                    <progress id="file" value="60" max="100">60%</progress>
+                    <label for="file">NextJS 78%</label>
+                    <progress id="file" value="78" max="100">60%</progress>
                  </div>
                  <div>
                     <label for="file">Ruby 40%</label>
@@ -58,8 +58,8 @@ const AboutMe = () => {
                     <progress id="file" value="96" max="100">96%</progress>
                  </div>
                  <div>
-                    <label for="file">Java 45%</label>
-                    <progress id="file" value="40" max="100">45%</progress>
+                    <label for="file">Java 59%</label>
+                    <progress id="file" value="59" max="100">45%</progress>
                  </div>
                 </div>
             <div className="about">

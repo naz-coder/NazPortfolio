@@ -39,13 +39,13 @@ const ResumeComponent = () => {
           </div>
           <div className="education">
             <h3 className="edu-subtitle">Education</h3>
-            {/* <div className="edu-unn">
+            <div className="edu-unn">
               <p className="edu-name">MSc Advanced Computer Science</p>
               <p className="edu-duration">2023-2024</p>
               <p className="edu-location uk-location">
                 Manchester Metropolitan University, Manchester - United Kingdom
               </p>
-            </div> */}
+            </div>
             <div className="edu-unn">
               <p className="edu-name">BSc Zoology and Environmental Biology</p>
               <p className="edu-duration">2014-2018</p>
@@ -95,7 +95,7 @@ const ResumeComponent = () => {
             <h3 className="exp-subtitle">Professional Experience</h3>
             <div className="exp-ogtl">
               <p className="exp-name">Lead Tutor - Science and Engineering</p>
-              <p className="exp-duration">Nov. 2023 - Present</p>
+              <p className="exp-duration">Oct. 2023 - Present</p>
               <p className="exp-location">
                 National Saturday Club, Manchester Metropolitan University - UK
               </p>
