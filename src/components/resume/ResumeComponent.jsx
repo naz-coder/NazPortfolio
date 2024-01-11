@@ -23,7 +23,7 @@ const ResumeComponent = () => {
               Experienced developer with 3+ years and skilled in HTML, CSS,
               JavaScript, C, Ruby, Java, Spring Boot, HTTP Webserver, JDBC, ExpressJS, ReactJS, NextJS, NextTS, SQL, SQlite, Apollo
               GraphQL, Styled Component, SASS, Prime React, React Bootstrap, 
-              Tailwind CSS, Material UI, Firebase, AWS, and CMS (Shopify, Wix, and WordPress). Strong soft skills
+              Tailwind CSS, Material UI, Firebase, AWS, and CMS (Shopify, Wix, and WordPress). 3D design using Tinkercad. Scratch programming. Strong soft skills
               in teamwork, attention to detail, and problem-solving. Proven
               track record of meeting deadlines and satisfying clients.
               Impressive portfolio with projects including ecommerce, traffic
@@ -105,6 +105,7 @@ const ResumeComponent = () => {
               <li>Providing mentorship and guidance to Club co-facilitators, recruited through RISE, to assist in program delivery and empower them to conduct their own sessions with my support.</li>
               <li>Participating in team meetings, trainings, brainstorming sessions, and knowledge sharing activities.</li>
               <li>Leading the club group on a trip to London for an annual showcase at Somerset House. This event serves as a platform to celebrate and showcase everyone’s work in a professional environment.</li>
+              <li>Training participants(teens) on how to use Tinkercad, Scratch and other tools for design.</li>
             </ul>
             </div>
             <div className="exp-ogtl">
