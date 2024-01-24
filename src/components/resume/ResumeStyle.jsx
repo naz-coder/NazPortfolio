@@ -165,6 +165,31 @@ export const ResumeStyle = styled.div`
     margin-bottom: -0.3rem;
   }
 
+  a.download-btn{
+    background-color: transparent;
+    border: 3px double #2B0000;
+    border-radius: 0.5rem;
+    background-position: right bottom;
+    transition: all 0.5s ease-in;
+    padding: 0.6rem 2.5rem;
+    margin-top: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    color: #521d06;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+    a.download-btn:hover{
+    background-color: #8B3611;
+    border: 3px double #8B3611;
+    background-position: left bottom;
+    transition: all 0.5s ease-in;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
   .hire-me-btn-container{
     display: flex;
     justify-content: center;

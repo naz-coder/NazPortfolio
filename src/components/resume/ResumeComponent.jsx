@@ -1,6 +1,7 @@
 import React from "react";
 import { ResumeStyle } from "./ResumeStyle";
 import { Link } from "react-router-dom";
+import ImpactOf5GTechnologyOnEnergyEfficiency from "../../assets/ImpactOf5GTechnologyOnEnergyEfficiency.pdf";
 
 const ResumeComponent = () => {
     const contactScrollHandler = () => {
@@ -23,7 +24,7 @@ const ResumeComponent = () => {
               Experienced developer with 3+ years and skilled in HTML, CSS,
               JavaScript, C, Ruby, Java, Spring Boot, HTTP Webserver, JDBC, ExpressJS, ReactJS, NextJS, NextTS, SQL, SQlite, Apollo
               GraphQL, Styled Component, SASS, Prime React, React Bootstrap, 
-              Tailwind CSS, Material UI, Firebase, AWS, and CMS (Shopify, Wix, and WordPress). 3D design using Tinkercad. Scratch programming. Strong soft skills
+              Tailwind CSS, Material UI, Firebase, AWS, and CMS (Shopify, Wix, and WordPress). 3D design using Tinkercad. Introducing young adults and children to Coding using Scratch software and Microbits. Strong soft skills
               in teamwork, attention to detail, and problem-solving. Proven
               track record of meeting deadlines and satisfying clients.
               Impressive portfolio with projects including ecommerce, traffic
@@ -87,6 +88,17 @@ const ResumeComponent = () => {
               </p>
             </div>
           </div>
+          {/* Research */}
+          <div className="education">
+            <h3 className="edu-subtitle">Research</h3>
+            <div className="edu-unn">
+              <p className="edu-name">A research survey paper on the Impact of 5G Technology on Energy Efficiency</p>
+              <p className="edu-duration">2024</p>
+              <p className="edu-desc"><strong><i>Abstract: This technical survey explores the intricate interplay between 5G technology and energy efficiency, emphasizing the imperative of balancing enhanced connectivity with environmental sustainability. The paper delves into the impact of 5G on energy consumption, presenting key enablers such as Device-to-Device Communication (D2D), Massive MIMO, advanced sleep modes, and heterogeneous networks. It addresses challenges and trade-offs, including infrastructure costs, millimeter-wave technology constraints, and the delicate balance between energy efficiency and Quality of Service (QoS). Through a comprehensive review of existing research, the survey contributes insights into strategies for a sustainable digital future in the era of 5G.</i></strong></p>
+              <br></br>
+              <a href={ImpactOf5GTechnologyOnEnergyEfficiency} download className='download-btn'>Download paper</a>
+            </div>
+          </div>
           
         </div>
         {/* Professional Experience */}
@@ -100,12 +112,14 @@ const ResumeComponent = () => {
                 National Saturday Club, Manchester Metropolitan University - UK
               </p>
               <ul className="exp-activities">
+              <li>Organize various STEM projects workshop sessions to introduce members to Science and Engineering</li>
+              <li>Working on projects with Microbits to introduce members to Coding and STEM.</li>
               <li>Collaborating with existing university resources to integrate my program into a wider network of outreach and engagement opportunities for the club members.</li>
               <li>Taking charge of monitoring and evaluating the club’s performance, utilizing provided resources.</li>
               <li>Providing mentorship and guidance to Club co-facilitators, recruited through RISE, to assist in program delivery and empower them to conduct their own sessions with my support.</li>
               <li>Participating in team meetings, trainings, brainstorming sessions, and knowledge sharing activities.</li>
               <li>Leading the club group on a trip to London for an annual showcase at Somerset House. This event serves as a platform to celebrate and showcase everyone’s work in a professional environment.</li>
-              <li>Training participants(teens) on how to use Tinkercad, Scratch and other tools for design.</li>
+              <li>Building projects using Tinkercad and Scratch Software to introduce members to Software Development.</li>
             </ul>
             </div>
             <div className="exp-ogtl">
