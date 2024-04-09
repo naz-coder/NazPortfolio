@@ -22,7 +22,7 @@ const ResumeComponent = () => {
             <p className="summary-name">Favour Chinaza Anajemba-Agada</p>
             <p className="summary-desc">
               Experienced developer with 3+ years and skilled in HTML, CSS,
-              JavaScript, C, Ruby, Java, Spring Boot, HTTP Webserver, JDBC, ExpressJS, ReactJS, NextJS, NextTS, SQL, SQlite, Apollo
+              JavaScript, C, Ruby, Java, MVC, RESTful APIs, Spring Boot, HTTP Webserver, JDBC, ExpressJS, ReactJS, NextJS, NextTS, SQL, SQlite, Apollo
               GraphQL, Styled Component, SASS, Prime React, React Bootstrap, 
               Tailwind CSS, Material UI, Firebase, AWS, and CMS (Shopify, Wix, and WordPress). 3D design using Tinkercad. Introducing young adults and children to Coding using Scratch software and Microbits. Strong soft skills
               in teamwork, attention to detail, and problem-solving. Proven
