@@ -14,36 +14,12 @@ const AboutMe = () => {
                     <progress id="file" value="95" max="100">95%</progress>
                  </div>
                  <div>
+                    <label for="file">Bootstrap 94%</label>
+                    <progress id="file" value="96" max="100">96%</progress>
+                 </div>
+                 <div>
                     <label for="file">CSS 90%</label>
                     <progress id="file" value="90" max="100">90%</progress>
-                 </div>
-                 <div>
-                    <label for="file">JavaScript 75%</label>
-                    <progress id="file" value="75" max="100">75%</progress>
-                 </div>
-                 <div>
-                    <label for="file">ReactJS 80%</label>
-                    <progress id="file" value="80" max="100">65%</progress>
-                 </div>
-                 <div>
-                    <label for="file">NextJS 78%</label>
-                    <progress id="file" value="78" max="100">60%</progress>
-                 </div>
-                 <div>
-                    <label for="file">Ruby 40%</label>
-                    <progress id="file" value="40" max="100">40%</progress>
-                 </div>
-                 <div>
-                    <label for="file">C Language 40%</label>
-                    <progress id="file" value="40" max="100">40%</progress>
-                 </div>
-                 <div>
-                    <label for="file">ExpressJS 40%</label>
-                    <progress id="file" value="40" max="100">40%</progress>
-                 </div>
-                 <div>
-                    <label for="file">WordPress 70%</label>
-                    <progress id="file" value="70" max="100">70%</progress>
                  </div>
                  <div>
                     <label for="file">Shopify 85%</label>
@@ -54,12 +30,36 @@ const AboutMe = () => {
                     <progress id="file" value="80" max="100">80%</progress>
                  </div>
                  <div>
-                    <label for="file">Bootstrap 96%</label>
-                    <progress id="file" value="96" max="100">96%</progress>
+                    <label for="file">JavaScript 80%</label>
+                    <progress id="file" value="80" max="100">80%</progress>
+                 </div>
+                 <div>
+                    <label for="file">ReactJS 79%</label>
+                    <progress id="file" value="79" max="100">79%</progress>
+                 </div>
+                 <div>
+                    <label for="file">NextJS (SSR) 78%</label>
+                    <progress id="file" value="78" max="100">78%</progress>
+                 </div>
+                 <div>
+                    <label for="file">WordPress 70%</label>
+                    <progress id="file" value="70" max="100">70%</progress>
                  </div>
                  <div>
                     <label for="file">Java 59%</label>
-                    <progress id="file" value="59" max="100">45%</progress>
+                    <progress id="file" value="59" max="100">59%</progress>
+                 </div>
+                 <div>
+                    <label for="file">C# 48%</label>
+                    <progress id="file" value="48" max="100">48%</progress>
+                 </div>
+                 <div>
+                    <label for="file">ExpressJS 43%</label>
+                    <progress id="file" value="43" max="100">43%</progress>
+                 </div>
+                 <div>
+                    <label for="file">Ruby 40%</label>
+                    <progress id="file" value="40" max="100">40%</progress>
                  </div>
                 </div>
             <div className="about">
@@ -80,9 +80,9 @@ const AboutMe = () => {
                 as well as ensuring that deadlines are adhered to and that client's satisfaction is put forward.    
                 </p>
                 <p className='about-description-c'>
-                In the next 5 to 10 years, I want to have been able to build a tech product that has impacted a great number of people. Also, I have 
-                the zeal to mentor newbies in tech, so, I see myself trying out managerial roles and building a community of vibrant amazing techies 
-                producing tech products that impact the world in diverse ways. That's my top career goal!
+                In the next 5 to 10 years, I want to have been able to build innovative products that has impacted a great number of people. Also, I have 
+                the zeal to mentor newbies in this profession, so, I see myself trying out managerial roles and building a community of vibrant amazing techies 
+                producing novel products that impact the world in diverse ways. That's my top career goal!
                 </p>
                 <div className='hire-me'>
                   <p className='action-text'>Let's work together.</p>

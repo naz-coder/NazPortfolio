@@ -65,7 +65,7 @@ const Footer = () => {
           <div className="nav_socials">
           <a target="_blank" href="https://www.twitter.com/TechSiz"><FaTwitter/></a>
           <a target="_blank" href="https://wa.me/2348167265619"><FaWhatsapp/></a>
-          <a target="_blank" href="https://www.linkedin.com/in/favour-naza-anajemba-02a156196"><FaLinkedinIn/></a>
+          <a target="_blank" href="https://www.linkedin.com/in/favour-naza-anajemba"><FaLinkedinIn/></a>
           <a target="_blank" href="https://github.com/naz-coder"><FaGithub/></a>
           <a target="_blank" href="https://www.instagram.com/naz.codes/"><FaInstagram/></a>
           </div>
