@@ -14,7 +14,7 @@
             "name": "Abidack Mobile Toilet",
             "image": "projectThumbnails/abidack.png",
             "altName": "abidack thumbnail",
-            "link": "https://abidackmobiletoilet.vercel.app/",
+            "link": "https://abidackmobiletoilet.com/",
             "credit": "Naz-coder",
             "stack": "NextJS, Styled Compo., EmailJS, Flutterwave"
         },
