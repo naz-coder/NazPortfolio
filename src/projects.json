@@ -5,7 +5,7 @@
             "name": "Chosen Vessels Global Outreach",
             "image": "projectThumbnails/cvgo.png",
             "altName": "CVGO thumbnail",
-            "link": "https://chosen-vessels-go.vercel.app",
+            "link": "https://www.chosen-vessels-go.vercel.app",
             "credit": "Naz-coder",
             "stack": "NextJS, Styled Compo., Nodemailer, Flutterwave"
         },
@@ -14,7 +14,7 @@
             "name": "Abidack Mobile Toilet",
             "image": "projectThumbnails/abidack.png",
             "altName": "abidack thumbnail",
-            "link": "https://abidackmobiletoilet.com/",
+            "link": "https://www.abidackmobiletoilet.com/",
             "credit": "Naz-coder",
             "stack": "NextJS, Styled Compo., EmailJS, Flutterwave"
         },
@@ -23,7 +23,7 @@
             "name": "Cash Vision",
             "image": "projectThumbnails/cashvision.png",
             "altName": "cashvision thumbnail",
-            "link": "https://cashvision.org/",
+            "link": "https://www.cashvision.org/",
             "credit": "Naz-coder for Milantiawebs",
             "stack": "Shopify CMS"
         },
@@ -32,7 +32,7 @@
             "name": "Quantmworld",
             "image": "projectThumbnails/quantmWorld.png",
             "altName": "quantmWorld thumbnail",
-            "link": "https://quantmworld.com/",
+            "link": "https://www.quantmworld.com/",
             "credit": "Naz-coder for Milantiawebs",
             "stack": "Shopify CMS"
         },
@@ -41,7 +41,7 @@
             "name": "Kalakuta",
             "image": "projectThumbnails/kalakuta.png",
             "altName": "kalakuta thumbnail",
-            "link": "https://kalakuta.vercel.app/",
+            "link": "https://www.kalakuta.vercel.app/",
             "credit": "Naz-coder",
             "stack": "HTML, CSS, JavaScript"
 
@@ -51,7 +51,7 @@
             "name": "Trafap",
             "image": "projectThumbnails/trafap.png",
             "altName": "trafap thumbnail",
-            "link": "https://trafap.vercel.app/",
+            "link": "https://www.trafap.vercel.app/",
             "credit": "Naz-coder",
             "stack": "ReactJS, SASS/SCSS, Tailwind CSS, Material UI"
         },
@@ -60,7 +60,7 @@
             "name": "Poketan",
             "image": "projectThumbnails/poketan.png",
             "altName": "poketan thumbnail",
-            "link": "https://poketan.vercel.app/",
+            "link": "https://www.poketan.vercel.app/",
             "credit": "Naz-coder",
             "stack": "ReactJS, Styled Component"
         },
@@ -69,7 +69,7 @@
             "name": "Tetris Game",
             "image": "projectThumbnails/tetris.png",
             "altName": "tetris thumbnail",
-            "link": "https://tetris-game-techsis.vercel.app/",
+            "link": "https://www.tetris-game-techsis.vercel.app/",
             "credit": "Naz-coder",
             "stack": "HTML, CSS, JavaScript"
         },
@@ -78,7 +78,7 @@
             "name": "Greencitie",
             "image": "projectThumbnails/greencitie.png",
             "altName": "greencitie thumbnail",
-            "link": "https://greencitie.wordpress.com/",
+            "link": "https://www.greencitie.wordpress.com/",
             "credit": "Naz-coder",
             "stack": "WordPress CMS"
         },
@@ -87,7 +87,7 @@
             "name": "Corper Casa",
             "image": "projectThumbnails/corpercasa.png",
             "altName": "corpercasa thumbnail",
-            "link": "https://corpercasa.vercel.app/",
+            "link": "https://www.corpercasa.vercel.app/",
             "credit": "Naz-coder",
             "stack": "HTML, CSS, BootStrap CSS, JavaScript"
         }
