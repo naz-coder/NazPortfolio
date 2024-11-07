@@ -130,7 +130,7 @@ const ResumeComponent = () => {
             <h3 className="exp-subtitle">Professional Experience</h3>
             <div className="exp-ogtl">
               <p className="exp-name">Lead Tutor - Science and Engineering</p>
-              <p className="exp-duration">Oct. 2023 - Present</p>
+              <p className="exp-duration">Oct. 2023 - Oct. 2024</p>
               <p className="exp-location">
                 National Saturday Club, Manchester Metropolitan University - UK
               </p>
