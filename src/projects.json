@@ -2,15 +2,6 @@
     "projects": [
         {
             "id": 1000,
-            "name": "Chosen Vessels Global Outreach",
-            "image": "projectThumbnails/cvgo.png",
-            "altName": "CVGO thumbnail",
-            "link": "https://www.chosen-vessels-go.vercel.app",
-            "credit": "Naz-coder",
-            "stack": "NextJS, Styled Compo., Nodemailer, Flutterwave"
-        },
-        {
-            "id": 1001,
             "name": "Abidack Mobile Toilet",
             "image": "projectThumbnails/abidack.png",
             "altName": "abidack thumbnail",
@@ -19,13 +10,22 @@
             "stack": "NextJS, Styled Compo., EmailJS, Flutterwave"
         },
         {
-            "id": 1002,
+            "id": 1001,
             "name": "Cash Vision",
             "image": "projectThumbnails/cashvision.png",
             "altName": "cashvision thumbnail",
             "link": "https://www.cashvision.org/",
             "credit": "Naz-coder for Milantiawebs",
             "stack": "Shopify CMS"
+        },
+        {
+            "id": 1002,
+            "name": "BrainBoost360",
+            "image": "projectThumbnails/brainboost.png",
+            "altName": "BrainBoost360 thumbnail",
+            "link": "https://brainboost360.vercel.app/",
+            "credit": "Naz-coder",
+            "stack": "NextJS, Tailwind CSS, NodeJS, MongoDB, AWS"
         },
         {
             "id": 1003,
@@ -38,6 +38,15 @@
         },
         {
             "id": 1004,
+            "name": "Chosen Vessels Global Outreach",
+            "image": "projectThumbnails/cvgo.png",
+            "altName": "CVGO thumbnail",
+            "link": "https://www.chosen-vessels-go.vercel.app",
+            "credit": "Naz-coder",
+            "stack": "NextJS, Styled Compo., Nodemailer, Flutterwave"
+        },
+        {
+            "id": 1005,
             "name": "Kalakuta",
             "image": "projectThumbnails/kalakuta.png",
             "altName": "kalakuta thumbnail",
@@ -45,15 +54,6 @@
             "credit": "Naz-coder",
             "stack": "HTML, CSS, JavaScript"
 
-        },
-        {
-            "id": 1005,
-            "name": "Trafap",
-            "image": "projectThumbnails/trafap.png",
-            "altName": "trafap thumbnail",
-            "link": "https://www.trafap.vercel.app/",
-            "credit": "Naz-coder",
-            "stack": "ReactJS, SASS/SCSS, Tailwind CSS, Material UI"
         },
         {
             "id": 1006,
