@@ -21,7 +21,13 @@ const ResumeComponent = () => {
           <div className="summary">
             <p className="summary-name">Favour Chinaza Anajemba-Agada</p>
             <p className="summary-desc">
-              Experienced developer with 3+ years and skilled in HTML, CSS,
+              Accomplished and self-motivated Front End Developer with more than 4+ 
+              years of comprehensive experience in designing, developing, testing, and 
+              deploying innovative software solutions and web applications. Proven 
+              track record of delivering robust software that enhances operational 
+              efficiency and user experience, meeting deadlines and ensuring client 
+              satisfaction. 
+              {/* Experienced developer with 3+ years and skilled in HTML, CSS,
               JavaScript, C, Ruby, Java, MVC, RESTful APIs, Spring Boot, HTTP Webserver, JDBC, ExpressJS, ReactJS, NextJS, NextTS, SQL, SQlite, Apollo
               GraphQL, Styled Component, SASS, Prime React, React Bootstrap, 
               Tailwind CSS, Material UI, Firebase, AWS, and CMS (Shopify, Wix, and WordPress). 3D design using Tinkercad. Introducing young adults and children to Coding using Scratch software and Microbits. Strong soft skills
@@ -30,7 +36,7 @@ const ResumeComponent = () => {
               Impressive portfolio with projects including ecommerce, traffic
               update app, games, biography website, fintech loan app, and
               residential apartment search platform. I am familiar with tools 
-              such as Git, Tirello, Jira, Notion, payment gateways(Flutterwave and Paystack), messaging platforms(EmailJS, Nodemailer, and Sendgrid) amongst many others.
+              such as Git, Tirello, Jira, Notion, payment gateways(Flutterwave and Paystack), messaging platforms(EmailJS, Nodemailer, and Sendgrid) amongst many others. */}
             </p>
             <ul className="summary-details">
               <li>nazanajemba@gmail.com</li>
@@ -111,6 +117,19 @@ const ResumeComponent = () => {
             </ul>
             </div>
           </div>
+          {/* Achievements History */}
+          <div className="education">
+            <h3 className="edu-subtitle">Achievements</h3>
+            <div className="edu-unn">
+              <p className="edu-name">CREATIVE SOFTWARE DEVELOPER</p>
+              <p className="edu-location uk-location">​​​​​Rochdale Creativity and Careers Event (Manchester - UK)</p>
+              <ul className="exp-activities">
+              <li>​Exhibited at the Creativity and Careers Event, engaging 500+ Year 9 pupils with hands-on software engineering demos and career insights to inspire interest in tech.</li>
+              <li>Collaborated with 50+ professionals to provide mentorship, share qualifications and personal experiences, and help students make informed GCSE choices.</li>
+              <li>Promoted the real-world relevance of creative subjects in tech through interactive presentations and practical applications. </li>
+            </ul>
+            </div>
+          </div>
           {/* Research */}
           <div className="education">
             <h3 className="edu-subtitle">Research</h3>
@@ -128,8 +147,22 @@ const ResumeComponent = () => {
         <div className="experience-container">
           <div className="education">
             <h3 className="exp-subtitle">Professional Experience</h3>
+            <div className="exp-iykemedia">
+              <p className="exp-name">Frontend Developer (Remote)</p>
+              <p className="exp-duration">Dec 2024 - Until Date</p>
+              <p className="exp-location">
+              Iykemedia Branding Concepts
+              </p>
+              <ul className="exp-activities">
+                <li>​Built and customized scalable, flexible, and user-friendly e-commerce platforms using Shopify and Shopify Plus, tailored to meet specific client needs and project requirements.</li>
+                <li>Developed and managed Shopify stores by creating, customizing, and optimizing pages using Liquid, HTML5, CSS3, JavaScript, and jQuery, ensuring responsive and mobile-first design principles.</li>
+                <li>Implemented third-party APIs (e.g. Google Maps, YouTube, Paystack) </li>
+                <li>Integrated and customized third-party apps, Shopify APIs, and plugins to extend store functionality, including contact forms, product galleries, social media feeds, and e-commerce features.</li>
+                <li>Organized and optimized website content, create content, including adding media (images, videos) and implementing SEO best practices to enhance search engine visibility and site performance </li>
+            </ul>
+            </div>
             <div className="exp-ogtl">
-              <p className="exp-name">Lead Tutor - Science and Engineering</p>
+              <p className="exp-name">Lead Tutor - Science and Engineering Club</p>
               <p className="exp-duration">Oct. 2023 - Oct. 2024</p>
               <p className="exp-location">
                 National Saturday Club, Manchester Metropolitan University - UK
@@ -145,10 +178,10 @@ const ResumeComponent = () => {
             </ul>
             </div>
             <div className="exp-ogtl">
-              <p className="exp-name">Frontend Developer</p>
-              <p className="exp-duration">Apr. 2023 - Oct. 2023</p>
+              <p className="exp-name">Frontend Developer (Hybrid)</p>
+              <p className="exp-duration">Dec. 2022 - Oct. 2023</p>
               <p className="exp-location">
-                Outsource Global Technologies Ltd, Abuja - Nigeria
+                Outsource Global Technologies Ltd.
               </p>
               <ul className="exp-activities">
               <li>Wrote clean, efficient, and maintainable code by utilizing appropriate programming languages and frameworks, ensuring high performance and compatibility.</li>
@@ -159,10 +192,10 @@ const ResumeComponent = () => {
             </ul>
             </div>
             <div className="exp-milantiawebs">
-              <p className="exp-name">Freelance Frontend Developer</p>
+              <p className="exp-name">Frontend Developer (Remote)</p>
               <p className="exp-duration">Dec. 2022 - Sept. 2023</p>
               <p className="exp-location">
-                Milantiawebs, London - UK
+                Milantiawebs
               </p>
               <ul className="exp-activities">
                 <li>Collaborated closely with clients to understand their needs, define project scope, and collect essential information, ensuring clear alignment and understanding throughout the project lifecycle.</li>
@@ -174,9 +207,9 @@ const ResumeComponent = () => {
             </div>
             <div className="exp-deep">
               <p className="exp-name">Frontend Developer (Contract)</p>
-              <p className="exp-duration">Sep. 2022 - Dec. 2022</p>
+              <p className="exp-duration">Sept. 2022 - Dec. 2022</p>
               <p className="exp-location">
-                Deep Technologies Ltd, Abuja - Nigeria
+                Deep Technologies Ltd.
               </p>
               <ul className="exp-activities">
                 <li>Developed a robust FinTech loan and ecommerce application, leveraging frontend technologies to create a seamless user experience and efficient functionality.</li>
@@ -186,25 +219,11 @@ const ResumeComponent = () => {
                 <li>Stayed abreast of the latest frontend technologies and industry trends, proactively recommending and implementing innovative solutions to enhance the company's web development processes and maintain a competitive edge.</li>
             </ul>
             </div>
-            <div className="exp-iykemedia">
-              <p className="exp-name">Freelance Frontend Developer || Content Writer</p>
-              <p className="exp-duration">March 2020 - Aug. 2022</p>
-              <p className="exp-location">
-              Iykemedia Branding Concepts, Anambra - Nigeria
-              </p>
-              <ul className="exp-activities">
-                <li>Evaluated the client's needs and recommended the most suitable CMS platform based on factors such as scalability, flexibility, ease of use, and specific project requirements.</li>
-                <li>Assisted clients in organizing and managing their website content within the CMS. This includes creating pages, adding images and videos, and optimizing content for search engines.</li>
-                <li>Tracked and analyzed social media metrics, such as post engagement, click-through rates, and follower growth, providing insights to optimize future content strategies and improve performance.</li>
-                <li>Extended the functionality of the website by integrating and customizing plugins or widgets available within the CMS. This may include contact forms, galleries, social media feeds, e-commerce functionality, and more.</li>
-                <li>Wrote engaging and compelling social media posts that align with the brand's voice and tone, ensuring they resonate with the target audience.</li>
-            </ul>
-            </div>
             <div className="exp-nts">
-              <p className="exp-name">IT Support || Content Writer (Contract)</p>
-              <p className="exp-duration">Nov. 2019 - March. 2020</p>
+              <p className="exp-name">IT Support || Content Writer</p>
+              <p className="exp-duration">Aug. 2020 - Jul. 2022</p>
               <p className="exp-location">
-              Naija Talent Search, Abuja - Nigeria
+              Naija Talent Search
               </p>
               <ul className="exp-activities">
                 <li>Implemented proactive measures and preventive maintenance strategies to minimize system downtime and user disruptions. This included regularly monitoring and addressing potential issues before they escalated, resulting in improved system stability and reduced downtime.</li>
@@ -218,7 +237,7 @@ const ResumeComponent = () => {
               <p className="exp-name">Computer Operator || Instructor</p>
               <p className="exp-duration">Jan. 2009 - Aug. 2012</p>
               <p className="exp-location">
-                Divine Favour Computer Institute, Sokoto - Nigeria
+                Divine Favour Computer Institute
               </p>
               <ul className="exp-activities">   
                 <li>Through my expertise and guidance, I enhanced participants' proficiency in using Microsoft Word, Excel, PowerPoint, and other Office applications, enabling them to create professional documents, analyze data effectively, and deliver impactful presentations.</li>
@@ -234,7 +253,7 @@ const ResumeComponent = () => {
         <div className='hire-me-btn-container'>
                   <div className='hire-me'>
                   <p className='action-text'>Let's work together.</p>
-                  <button onClick={contactScrollHandler} className='hire-me'><Link to='/' className='menu-link'>Hire me</Link></button>
+                  <button onClick={contactScrollHandler} className='hire-me'><Link to='/contact' className='menu-link'>Hire me</Link></button>
                   </div>
                 </div>
       </div>
