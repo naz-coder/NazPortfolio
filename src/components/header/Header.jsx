@@ -3,9 +3,9 @@ import {HeaderStyle} from "../header/HeaderStyle"
 import {Link} from "react-router-dom"
 import MobileMenu from '../atoms/MobileMenu'
 import whiteLogoo from '../../assets/whiteLogoo.jpg'
-import {FaWhatsapp} from 'react-icons/fa'
-import {FaTwitter, FaGithub, FaLinkedinIn, FaInstagram} from 'react-icons/fa'
+import {FaTwitter, FaGithub, FaLinkedinIn} from 'react-icons/fa'
 import {CgMenuHotdog} from "react-icons/cg"
+import {HiOutlineMail} from "react-icons/hi";
 
 const Header = () => {
   const [mobileMenu, setMobileMenu] = useState(false)
@@ -42,21 +42,19 @@ const Header = () => {
           <li onClick={aboutScrollHandler}><Link to="/" className='menu-link'>About me</Link></li>
           <li onClick={serviceScrollHandler}><Link to="/" className='menu-link'>Services</Link></li>
           <li onClick={porfolioScrollHandler}><Link to="/" className='menu-link'>Portfolio</Link></li>
-          <li><Link to="/academy" className='menu-link'>CodeSpac</Link></li>
-          <li><Link to="/gallery" className='menu-link'>Gallery</Link></li>
-          <li><Link to="/resume" className='menu-link'>Resume</Link></li>
-          <li><Link to="/podcast" className='menu-link'>Podcast</Link></li>
-          <li><a href="https://dev.to/techsiz" target='blank' className='menu-link'>Blog</a></li>
+          {/* <li><Link to="/podcast" className='menu-link'>Podcast</Link></li>
+          <li><a href="https://dev.to/techsiz" target='blank' className='menu-link'>Blog</a></li> */}
           <li><Link to="/contact" className='menu-link'>Contact</Link></li>
         </ul>
       </nav>
       <nav className='nav_socials'>
         <ul>
-          <li><a href="https://www.twitter.com/TechSiz" target='blank'><FaTwitter/></a></li>
-          <li><a href="https://wa.me/2348167265619" target='blank'><FaWhatsapp/></a></li>
-          <li><a href="https://www.linkedin.com/in/favour-naza-anajemba" target='blank'><FaLinkedinIn/></a></li>
-          <li><a href="https://github.com/naz-coder" target='blank'><FaGithub/></a></li>
-          <li><a href="https://www.instagram.com/naz.codes/" target='blank'><FaInstagram/></a></li>
+          <ul>
+            <li><a target="_blank" href="mailto:nazanajemba@gmail.com" ><HiOutlineMail/></a></li>
+            <li><a href="https://www.twitter.com/TechSiz" target='blank'><FaTwitter/></a></li>
+            <li><a href="https://www.linkedin.com/in/favour-naza-anajemba-02a156196" target='blank'><FaLinkedinIn/></a></li>
+            <li><a href="https://github.com/naz-coder" target='blank'><FaGithub/></a></li>
+          </ul>
         </ul>
       </nav>
       <div className='mobile-menu'>

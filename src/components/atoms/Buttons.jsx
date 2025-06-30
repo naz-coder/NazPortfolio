@@ -8,7 +8,7 @@ const Buttons = ({buttonText}) => {
     <ButtonStyle>
         <div className='btn-outter'>
             <button className='primary-btn'><Link to='/contact' className='menu-link'>{buttonText}</Link></button>
-            <a href={FavourChinazaAnajembaResume} download className='download-btn'> Download CV</a>
+            <a href={FavourChinazaAnajembaResume} download className='download-btn'> Get My CV</a>
         </div>
     </ButtonStyle>
   )

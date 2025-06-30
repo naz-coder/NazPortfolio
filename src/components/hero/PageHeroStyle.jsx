@@ -50,8 +50,15 @@ export const PageHeroStyle = styled.div`
 
     .section-description{
         font-weight: 900;
-        font-size: 1.25rem;
+        font-size: 2rem;
         color: #333333;
+    }
+
+    .section-description-main{
+        font-weight: 900;
+        font-size: 1.50rem;
+        color: #000000;
+        text-transform: uppercase;
     }
 
 .hero-img{

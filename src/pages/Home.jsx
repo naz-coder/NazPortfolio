@@ -7,6 +7,7 @@ import Portfolio from "../components/portfolio/Portfolio";
 // import Loading from "../components/atoms/Loading";
 import Footer from '../components/footer/Footer';
 import BackToTop from "../components/atoms/BackToTop";
+import ContactMe from '../components/contactMe/ContactMe';
 
 const Home = () => {
   return (
@@ -15,7 +16,8 @@ const Home = () => {
         <PageHero/>
         <AboutMe/>
         <Services/>
-        <Portfolio/>      
+        <Portfolio/>   
+        <ContactMe/>   
         <Footer/>
         {/* <Loading/> */}
         <BackToTop/>

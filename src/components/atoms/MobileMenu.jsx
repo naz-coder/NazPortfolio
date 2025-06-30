@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
-import {FaWhatsapp} from 'react-icons/fa'
-import {FaTwitter, FaGithub, FaLinkedinIn, FaInstagram} from 'react-icons/fa'
+import {FaTwitter, FaGithub, FaLinkedinIn} from 'react-icons/fa'
+import {HiOutlineMail} from "react-icons/hi";
 
 const MobileMenu = ({closeModal, aboutScrollHandler, serviceScrollHandler, porfolioScrollHandler, contactScrollHandler}) => {
   const menuControl = () => {
@@ -28,21 +28,17 @@ const MobileMenu = ({closeModal, aboutScrollHandler, serviceScrollHandler, porfo
           <li onClick={menuControl}><Link to='/' className='menu-link'>About me</Link></li>
           <li onClick={serviceMenuControl}><Link to='/' className='menu-link'>Services</Link></li>
           <li onClick={portfolioMenuControl}><Link to='/' className='menu-link'>Portfolio</Link></li>
-          <li><Link to="/academy" className='menu-link'>CodeSpac</Link></li>
-          <li><Link to="/gallery" className='menu-link'>Gallery</Link></li>
-          <li><Link to="/resume" className='menu-link'>Resume</Link></li>
-          <li><a href="https://dev.to/techsiz" target='blank' className='menu-link'>Blog</a></li>
-          <li><Link to="/podcast" className='menu-link'>Podcast</Link></li>
+          {/* <li><a href="https://dev.to/techsiz" target='blank' className='menu-link'>Blog</a></li>
+          <li><Link to="/podcast" className='menu-link'>Podcast</Link></li> */}
           <li><Link to="/contact" className='menu-link'>Contact</Link></li>
         </ul>
       </nav>
       <nav className='mobile_menu_socials'>
         <ul>
+          <li><a target="_blank" href="mailto:nazanajemba@gmail.com" ><HiOutlineMail/></a></li>
           <li><a href="https://www.twitter.com/TechSiz" target='blank'><FaTwitter/></a></li>
-          <li><a href="https://wa.me/2348167265619" target='blank'><FaWhatsapp/></a></li>
           <li><a href="https://www.linkedin.com/in/favour-naza-anajemba-02a156196" target='blank'><FaLinkedinIn/></a></li>
           <li><a href="https://github.com/naz-coder" target='blank'><FaGithub/></a></li>
-          <li><a href="https://www.instagram.com/naz.codes/" target='blank'><FaInstagram/></a></li>
         </ul>
       </nav>
     </div>
