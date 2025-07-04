@@ -24,7 +24,7 @@ const ContactMe = () => {
             <div className="details">
               <div>
               <p className="contact_msg">Looking for a Developer Who Gets It?</p> 
-              <a href="mailto:nazanajemba@gmail.com"><button>CONTACT ME</button></a>
+              <a target="_blank"  href="mailto:nazanajemba@gmail.com"><button>CONTACT ME</button></a>
               </div>
             </div>
             <div className="details">
