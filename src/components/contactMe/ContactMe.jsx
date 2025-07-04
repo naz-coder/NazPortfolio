@@ -1,7 +1,5 @@
 import React from "react";
 import { ContactStyle } from "./ContactMeStyle";
-import {BsPhone} from "react-icons/bs"; 
-import {HiOutlineMail} from "react-icons/hi"; 
 import contact from "../../assets/contact.png";
 import { FaTwitter, FaGithub, FaLinkedinIn } from "react-icons/fa";
 
