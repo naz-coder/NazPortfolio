@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import FavourChinazaAnajembaResume from "../../assets/FavourChinazaAnajembaResume.pdf";
 import { Link } from 'react-router-dom';
 
-const Buttons = ({buttonText}) => {
+const CtaButtons = ({buttonText}) => {
     const contactScrollHandler = () => {
     const sectionElement = document.getElementById("contact");
     sectionElement.scrollIntoView({behavior: "smooth"});
@@ -19,7 +19,7 @@ const Buttons = ({buttonText}) => {
   )
 }
 
-export default Buttons;
+export default CtaButtons;
 
 export const ButtonStyle = styled.div`
     a{
@@ -61,7 +61,7 @@ export const ButtonStyle = styled.div`
 
     a.download-btn{
     background-color: transparent;
-    border: 3px double #ffffff;
+    border: 3px double #333333;
     border-radius: 0.5rem;
     background-position: right bottom;
     transition: all 0.5s ease-in;
@@ -69,14 +69,14 @@ export const ButtonStyle = styled.div`
     margin-top: 1rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
-    color: #ffffff;
+    color: #333333;
     font-size: 1.2rem;
     font-weight: 900;
 }
 
     a.download-btn:hover{
     background-color: #c7ecdf;
-    border: 3px double #c7ecdf;
+    border: 3px double #000000;
     background-position: left bottom;
     transition: all 0.5s ease-in;
     color: #000000;
@@ -125,10 +125,7 @@ padding: 0.4rem 1.5rem;
 
 @media (max-width: 425px){
 .btn-outter{
-    /* margin-right: 5%; */
-    /* display: grid;
-    grid-template-columns: 1fr;  */
-    margin-bottom: 2rem;
+    margin-bottom: -2rem;
 
 }
 

@@ -42,7 +42,7 @@ export default BackToTop;
 
 export const TopBtnStyle = styled.div`
   .scrollToTopButton {
-    color: #8b3611;
+    color: #33A37C;
     cursor: pointer;
     display: none;
     position: fixed;
@@ -62,6 +62,6 @@ export const TopBtnStyle = styled.div`
   }
 
   .scrollToTopButton:hover {
-    color: #521d06;
+    color: #c7ecdf;
   }
 `;

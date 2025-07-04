@@ -4,10 +4,9 @@ export const FooterStyle = styled.div`
 
   .foot {
   text-align: left;
-  background-color: #000000;
   color: #bdc2ca;
-  padding: 40px 10px 10px 10px;
-  margin-top: 10rem;
+  padding: 10px;
+  margin-top: 3rem;
   font-size: 16px;
   font-weight: 900;
 }
@@ -41,14 +40,10 @@ export const FooterStyle = styled.div`
 .logo-hire{
   display: block;
 }
-
-button.hire-me a{
-        color: #ffffff;
-    }
     
     button.hire-me{
-    background-color: #521d06;
-    border: 1px solid #521d06;
+    background-color: #33A37C;
+    border: 1px solid #33A37C;
     border-radius: 0.5rem;
     background-position: right bottom;
     transition: all 0.5s ease-in;
@@ -70,11 +65,11 @@ button.hire-me a{
 }
 
 button.hire-me:hover{
-    background-color: #8B3611;
-    border: 1px solid #8B3611;
+    background-color: #c7ecdf;
+    border: 1px solid #c7ecdf;
     background-position: left bottom;
     transition: all 0.5s ease-in;
-    color: #ffffff;
+    color: #000000;
     cursor: pointer;
 }
 
@@ -154,12 +149,10 @@ a{
 }
 
 /* MEDIA QUERY */
-@media (max-width: 960px) {
-}
 
 @media (max-width: 768px) {
   .foot{
-    margin-top: 15rem;
+    margin-top: 1rem;
   }
   .foot_flex {
     display: flex;

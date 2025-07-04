@@ -10,7 +10,7 @@ export const ServiceStyle = styled.div`
     background-position: center;
 
     .service-outter {
-    margin: 8vh 12vw;
+    margin: 8vh 8vw;
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-gap: 4%;
@@ -23,22 +23,16 @@ export const ServiceStyle = styled.div`
 }
 
 .service-content h3{
-    font-size: 1.4rem;
-    border-left: 3px solid #8B3611;
-    padding-left: 0.5rem;
-}
-
-.service-content h1{
-    color: #521d06;
-    font-size: 1.8rem;
-    margin-top: -1rem;
+    font-size: 4rem;
+    margin-bottom: 1rem;
 }
 
 .service-content p{
     font-weight: 900;
-    font-size: 1.2rem;
+    font-size: 2rem;
     color: #333333;
     margin-top: -1rem;
+    text-align: justify;
 }
 
 .service-group-1, .service-group-2{
@@ -47,6 +41,10 @@ export const ServiceStyle = styled.div`
     grid-gap: 6%;
     margin-bottom: 5rem;
 }
+
+     .span_item{
+     color: #33A37C;
+ }
 
 .cards-1, .cards-2, .cards-3, .cards-4{
     background-color: #ece1e1;
@@ -60,6 +58,7 @@ export const ServiceStyle = styled.div`
     height: 100%;
     animation: growCards 1s ease-in;
     animation-iteration-count: 1;
+    text-align: justify;
 }
 
 @keyframes growCards {
@@ -89,7 +88,7 @@ export const ServiceStyle = styled.div`
 }
 
 .service-title{
-    color: #521d06;
+    color: #114231;
     font-size: 1.4rem;
     margin-bottom: -0.5rem;
     font-weight: 900;
@@ -109,6 +108,15 @@ export const ServiceStyle = styled.div`
     grid-template-columns: 1fr;
 }
 
+.service-content h3{
+    font-size: 3rem;
+}
+
+.service-content p{
+    font-size: 1.5rem;
+    margin-bottom: -0.5rem;
+
+}
 
 }
 
@@ -117,12 +125,22 @@ export const ServiceStyle = styled.div`
     margin: 2rem;
 }
 
+.service-content h3{
+    font-size: 2.5rem;
+    margin-top: -1rem;
+}
+
+.service-content p{
+    font-size: 1.3rem;
+    margin-bottom: 0rem;
+
+}
 }
 
 @media (max-width: 740px){
     padding-bottom: 3rem;
     .service-outter {
-    margin: 2rem;
+    margin: -3rem 1rem 2rem 1rem;
     grid-template-columns: 1fr;
 }
 
@@ -137,12 +155,17 @@ export const ServiceStyle = styled.div`
     height: 100%;
 }
 
+.service-content h3{
+    margin-top: 4rem;
+    font-size: 2.2rem;
+}
+
 .service-title{
     font-size: 1.2rem;
 }
 
 .service-content p{
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 
 }

@@ -4,11 +4,15 @@ export const HeaderStyle = styled.div`
   position: sticky;
   top: 0;
   padding:               1% 8%;
-  background:          #111111;
+  /* background: linear-gradient(rgba(46, 49, 54, 0.6), rgba(40, 41, 46, 0.6)); */
+  /* background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));   */
+
+background-color: rgba(255, 255, 255, 0.05);
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(0px);
   color:               #ffffff;
   font-weight:           900;
   font-size: 1rem;
-  border-radius: 0rem 0rem 1rem 1rem;
   z-index: 88;
 a{
     text-decoration: none;
@@ -25,7 +29,7 @@ li{
 
 li:hover{
   cursor:                pointer;
-  color:               #888888;
+  color:               #FF6B6B;
 }
 
 .header{
@@ -101,7 +105,7 @@ li:hover{
 
 
 @media (max-width: 768px){
-padding: 1rem 4.5rem 0rem 4.5rem;
+padding: 1rem 3.5rem 0rem 3.5rem;
 border-radius: 0rem;
 
 /* Latest */

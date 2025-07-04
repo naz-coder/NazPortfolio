@@ -19,6 +19,10 @@ const MobileMenu = ({closeModal, aboutScrollHandler, serviceScrollHandler, porfo
     porfolioScrollHandler();
     closeModal();
   }
+ const contactMenuControl = () => {
+    contactScrollHandler();
+    closeModal();
+  }
 
   return (
     <MobileMenuStyle>
@@ -30,7 +34,7 @@ const MobileMenu = ({closeModal, aboutScrollHandler, serviceScrollHandler, porfo
           <li onClick={portfolioMenuControl}><Link to='/' className='menu-link'>Portfolio</Link></li>
           {/* <li><a href="https://dev.to/techsiz" target='blank' className='menu-link'>Blog</a></li>
           <li><Link to="/podcast" className='menu-link'>Podcast</Link></li> */}
-          <li><Link to="/contact" className='menu-link'>Contact</Link></li>
+          <li onClick={contactMenuControl}><Link to="/" className='menu-link'>Contact</Link></li>
         </ul>
       </nav>
       <nav className='mobile_menu_socials'>
@@ -50,6 +54,9 @@ export default MobileMenu
 
 
 export const MobileMenuStyle = styled.div`
+@media (min-width: 769px) {
+    display: none;
+}
 @media (max-width: 768px){
     position: absolute;
 

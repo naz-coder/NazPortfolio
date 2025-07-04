@@ -8,7 +8,9 @@ const Portfolio = () => {
   return (
     <PortfolioStyle>
         <div>
-            <div className='section-title' id='portfolio'><h3>My Portfolio</h3></div>
+            <div className='section-title' id='portfolio'>
+                <h3>Featured <span className="span_item">projects</span></h3>
+            </div>
             <div className='project-container'>
                 {projectsData.projects.map((data) => {
                     return(
@@ -24,11 +26,10 @@ const Portfolio = () => {
                     <div className='project-content'>
                         <div className='info-1'>
                             <p className='project-title'><span className='span-item'>Title: </span>{data.name}</p>
-                            <p className='project-link'><a target='blank' href={data.link}>View more</a></p>
+                            <p className='project-stack'><span className='span-item'>Tech Stack: </span>{data.stack}</p>
                         </div>
                         <div className='info-2'>
-                            <p className='project-credit'><span className='span-item'>Credit: </span>{data.credit}</p>
-                            <p className='project-stack'><span className='span-item'>Tech Stack: </span>{data.stack}</p>
+                            <p className='project_description'><span className='span-item'> </span>{data.description}</p>
                         </div>
                     </div>
                 </div>

@@ -1,52 +1,64 @@
 import styled from "styled-components";
 
 export const AboutMeStyle = styled.div`
-    margin: 20vh 12vw;
+    margin: 20vh 8vw 15vh 8vw;
     padding: 2rem;
     border-radius: 0.5rem;
-    border: 1px solid #ece1e1;
+    border: 0.2px solid rgba(245, 199, 199, 0.3);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
     a{
         text-decoration: inherit;
     }
-    .about-title{
-        font-size: 2rem;
+    .about-subtitle, .about-title{
+        font-size: 4rem;
         margin-top: 0rem;
-        border-left: 3px solid #8B3611;
-        padding-left: 0.5rem;
+        color: #ffffff;
     }
 
+    .span_item{
+    color: #33A37C;
+}
     .skills{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 3%;
     }
 
-    .skills label{
-        display: block;
-        font-weight: 600;
-        color: #333333;
-    }
+    .category_title{
+    font-size: 1.4rem;
+    color: #ffffff;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+   .individual_tools{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
+    grid-gap: 3%;
+}
 
-    .about-subtitle{
-        margin-top: 0rem;
-        font-size: 2rem;
-        border-left: 3px solid #8B3611;
-        padding-left: 0.5rem;
-    }
+   .individual_tools_small{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+}
 
-    .about-description-a, .about-description-b, .about-description-c{
+.tool_icon_outter img{
+    width: 60px;
+    height: 60px;
+}
+
+.tool_title{
+    color: #ffffff;
+    font-size: 1rem;
+    margin-top: -0.2rem;
+}
+
+    .about-description-a{
         font-weight: 900;
-        font-size: 1.2rem;
-        color: #333333;
-    }
-
-    progress{
-        padding: 0.9rem;
-        width: 35rem;
-        accent-color: #023b02;
-        margin-bottom: 0.5rem;
+        font-size: 1.5rem;
+        color: #ffffff;
+        text-align: justify;
     }
 
     .hire-me{
@@ -58,7 +70,7 @@ export const AboutMeStyle = styled.div`
     .action-text{
         font-weight: 900;
         font-size: 1rem;
-        color: #000000;
+        color: #ffffff;
         text-transform: uppercase;
     }
 
@@ -67,8 +79,8 @@ export const AboutMeStyle = styled.div`
     }
     
     button.hire-me{
-    background-color: #521d06;
-    border: 1px solid #521d06;
+    background-color: #FF6B6B;
+    border: 1px solid #FF6B6B;
     border-radius: 0.5rem;
     background-position: right bottom;
     transition: all 0.5s ease-in;
@@ -77,7 +89,6 @@ export const AboutMeStyle = styled.div`
     text-align: center;
     color: #ffffff;
     font-size: 1.2rem;
-    font-weight: 500;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,8 +101,8 @@ export const AboutMeStyle = styled.div`
 }
 
 button.hire-me:hover{
-    background-color: #8B3611;
-    border: 1px solid #8B3611;
+    background-color: #d85e5e;
+    border: 1px solid #d85e5e;
     background-position: left bottom;
     transition: all 0.5s ease-in;
     color: #ffffff;
@@ -119,15 +130,18 @@ button.hire-me:hover{
         font-size: 1.1rem;
     }
 
-    progress{
-        width: 20rem;
-        margin-bottom: 1rem;
-    }
-
+        .category_title{
+    font-size: 1rem;
 }
 
+.tool_title{
+    font-size: 1rem;
+}
 
-
+    .skill-level-code{
+    padding-bottom: 4rem;
+    }
+}
 
 @media (max-width: 960px){
     margin: 7rem 2rem;
@@ -159,9 +173,6 @@ button.hire-me:hover{
         margin-bottom: 1rem;
     }
 
-    .hire-me{
-        padding-bottom: 6rem;
-    }
 
 }
 
@@ -176,5 +187,22 @@ button.hire-me:hover{
     .hire-me{
         grid-template-columns: 1fr;
     }
+
+    .skill-level-code{
+    padding-bottom: 6rem;
+    }
+
+    .category_title_style{
+    margin-top: 2rem;
+}
+
+
+    .individual_tools_small{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.tool_title{
+    font-size: 0.9rem;
+}
     }
 `

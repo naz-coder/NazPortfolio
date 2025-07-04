@@ -4,7 +4,7 @@ import frontendDevIcon from "../../assets/frontendDevIcon.png";
 import cmsIcon from "../../assets/cmsIcon.png";
 import seoIcon from "../../assets/seoIcon.png";
 import uiuxIcon from "../../assets/uiuxIcon.png";
-import Buttons from '../atoms/Buttons';
+import CtaButtons from '../atoms/CtaButtons';
 
 
 const Services = () => {
@@ -13,11 +13,10 @@ const Services = () => {
         <div className='service-outter' id='service'>
           <div className="service-content">
             <div className='service-content-info'>
-              <h3>Benefits</h3>
-              <h1>Why should you hire me?</h1>
-              <p>I can assist in bringing your product to life by providing 
-            comprehensive user research, design support, and testing expertise.</p>
-            <Buttons buttonText={"Hire me"}/>
+              <h3>Why <span className='span_item'>hire me</span>?</h3>
+              <p>I turn designs into fast, responsive websites, focused 
+                on user experience, clean code, and reliable performance.</p>
+            <CtaButtons buttonText={"Hire me"}/>
             </div>
           </div>
           <div className="service-cards">

@@ -6,8 +6,8 @@
             "image": "projectThumbnails/abidack.png",
             "altName": "abidack thumbnail",
             "link": "https://www.abidackmobiletoilet.com/",
-            "credit": "Naz-coder",
-            "stack": "NextJS, Styled Compo., EmailJS, Flutterwave"
+            "stack": "NextJS, Styled Compo., EmailJS, Flutterwave",
+            "description": "A clean, responsive business website developed for Abidack Mobile Toilet Services. The platform highlights the companys mobile toilet rental solutions, showcases their services, and allows easy contact and inquiries from potential clients. Built for user-friendliness and accessibility across all devices."
         },
         {
             "id": 1001,
@@ -15,8 +15,8 @@
             "image": "projectThumbnails/cashvision.png",
             "altName": "cashvision thumbnail",
             "link": "https://www.cashvision.org/",
-            "credit": "Naz-coder for Milantiawebs",
-            "stack": "Shopify CMS"
+            "stack": "Shopify CMS",
+            "description": "An e-commerce platform built with Shopify for Cashvision, designed to support the organization's business goals through the sale of branded merchandise. The site features a clean, responsive layout, product collections, secure checkout, and seamless user experience tailored for both desktop and mobile users."
         },
         {
             "id": 1002,
@@ -24,7 +24,7 @@
             "image": "projectThumbnails/brainboost.png",
             "altName": "BrainBoost360 thumbnail",
             "link": "https://brainboost360.vercel.app/",
-            "credit": "Naz-coder",
+            "description": "A full-stack e-learning platform built to enhance digital learning for students and teachers. Brainboost360 features personalized learning tools, quizzes, resource management, leaderboards, and a collaborative discussion forum. The platform is scalable, mobile-responsive, and designed with a focus on user experience and educational efficiency.",
             "stack": "NextJS, Tailwind CSS, NodeJS, MongoDB, AWS"
         },
         {
@@ -33,7 +33,7 @@
             "image": "projectThumbnails/quantmWorld.png",
             "altName": "quantmWorld thumbnail",
             "link": "https://www.quantmworld.com/",
-            "credit": "Naz-coder for Milantiawebs",
+            "description": "A sleek and informative website built to showcase QuantmWorld's digital innovation and tech solutions. The platform highlights the company’s services, thought leadership, and product offerings with an engaging, responsive design and intuitive navigation for users across all devices.",
             "stack": "Shopify CMS"
         },
         {
@@ -42,54 +42,36 @@
             "image": "projectThumbnails/cvgo.png",
             "altName": "CVGO thumbnail",
             "link": "https://www.chosen-vessels-go.vercel.app",
-            "credit": "Naz-coder",
+            "description": "A faith-based, responsive website developed to share spiritual resources, ministry events, and community initiatives. Built with a focus on clean design and easy navigation, the site enables visitors to engage with uplifting content and stay connected with the mission of Chosen Vessels Global NGO.",
             "stack": "NextJS, Styled Compo., Nodemailer, Flutterwave"
         },
         {
             "id": 1005,
-            "name": "Kalakuta",
-            "image": "projectThumbnails/kalakuta.png",
-            "altName": "kalakuta thumbnail",
-            "link": "https://www.kalakuta.vercel.app/",
-            "credit": "Naz-coder",
-            "stack": "HTML, CSS, JavaScript"
-
-        },
-        {
-            "id": 1006,
-            "name": "Poketan",
-            "image": "projectThumbnails/poketan.png",
-            "altName": "poketan thumbnail",
-            "link": "https://www.poketan.vercel.app/",
-            "credit": "Naz-coder",
-            "stack": "ReactJS, Styled Component"
-        },
-        {
-            "id": 1007,
             "name": "Tetris Game",
             "image": "projectThumbnails/tetris.png",
             "altName": "tetris thumbnail",
             "link": "https://www.tetris-game-techsis.vercel.app/",
-            "credit": "Naz-coder",
+            "description": "A fun and responsive Tetris game built using HTML, CSS, and JavaScript. This project showcases game logic implementation, keyboard controls, and grid-based animations—delivering a smooth and engaging retro gaming experience in the browser.",
             "stack": "HTML, CSS, JavaScript"
         },
         {
-            "id": 1008,
+            "id": 1006,
             "name": "Greencitie",
             "image": "projectThumbnails/greencitie.png",
             "altName": "greencitie thumbnail",
             "link": "https://www.greencitie.wordpress.com/",
-            "credit": "Naz-coder",
+            "description": "A sustainability-focused WordPress blog designed to raise awareness about eco-friendly living, green technologies, and climate action. The platform features educational articles, a clean layout, and easy navigation to engage readers interested in environmental impact and green innovation.",
             "stack": "WordPress CMS"
         },
         {
-            "id": 1009,
-            "name": "Corper Casa",
-            "image": "projectThumbnails/corpercasa.png",
-            "altName": "corpercasa thumbnail",
-            "link": "https://www.corpercasa.vercel.app/",
-            "credit": "Naz-coder",
-            "stack": "HTML, CSS, BootStrap CSS, JavaScript"
+            "id": 1007,
+            "name": "Kalakuta",
+            "image": "projectThumbnails/kalakuta.png",
+            "altName": "kalakuta thumbnail",
+            "link": "https://www.kalakuta.vercel.app/",
+            "description": "A visually engaging personal portfolio built with vanilla javascript, showcasing creative works, services, and skills. Designed with smooth animations and responsive layouts to highlight individuality and professional presence in the digital space.",
+            "stack": "HTML, CSS, JavaScript"
+
         }
     ],
 
@@ -120,86 +102,168 @@
         }
     ],
     
-    "photos":[
+    "frontendTools":[
         {
             "id": 1000,
-            "image": "photosOfMe/photo1.jpg",
-            "altName": "Naza's Photo1"
+            "image": "toolsIcons/jsIcon.png",
+            "altName": "js icon",
+            "title": "JavaScript"
         },
         {
             "id": 1001,
-            "image": "photosOfMe/photo16.jpeg",
-            "altName": "Naza's Photo2"
+            "image": "toolsIcons/reactIcon.png",
+            "altName": "reactjs icon",
+            "title": "ReactJS"
         },
         {
             "id": 1002,
-            "image": "photosOfMe/photo3.jpg",
-            "altName": "Naza's Photo3"
+            "image": "toolsIcons/cssIcon.png",
+            "altName": "css icon",
+            "title": "CSS3"
         },
         {
             "id": 1003,
-            "image": "photosOfMe/photo4.jpg",
-            "altName": "Naza's Photo4"
+            "image": "toolsIcons/htmlIcon.png",
+            "altName": "html icon",
+            "title": "HTML5"
         },
         {
             "id": 1004,
-            "image": "photosOfMe/photo2.jpg",
-            "altName": "Naza's Photo5"
+            "image": "toolsIcons/bootstrapIcon.png",
+            "altName": "bootstrap icon",
+            "title": "Bootstrap CSS"
         },
         {
             "id": 1005,
-            "image": "photosOfMe/photo5.jpeg",
-            "altName": "Naza's Photo6"
+            "image": "toolsIcons/jqueryIcon.png",
+            "altName": "jquery icon",
+            "title": "jQuery"
         },
         {
             "id": 1006,
-            "image": "photosOfMe/photo11.jpg",
-            "altName": "Naza's Photo7"
+            "image": "toolsIcons/tailwindIcon.png",
+            "altName": "tailwind icon",
+            "title": "Tailwind CSS"
         },
         {
             "id": 1007,
-            "image": "photosOfMe/photo17.jpeg",
-            "altName": "Naza's Photo8"
+            "image": "toolsIcons/nextIcon.png",
+            "altName": "next icon",
+            "title": "NextJS"
         },
         {
             "id": 1008,
-            "image": "photosOfMe/photo7.jpg",
-            "altName": "Naza's Photo9"
+            "image": "toolsIcons/sassIcon.png",
+            "altName": "sass icon",
+            "title": "Sass"
+        }
+    ],
+    "CMSTools":[
+        {
+            "id": 1000,
+            "image": "toolsIcons/wixIcon.png",
+            "altName": "wix icon",
+            "title": "Wix"
+        },
+        {
+            "id": 1001,
+            "image": "toolsIcons/wordpressIcon.png",
+            "altName": "wordpress icon",
+            "title": "WordPress"
+        },
+        {
+            "id": 1002,
+            "image": "toolsIcons/shopifyIcon.png",
+            "altName": "shopify icon",
+            "title": "Shopify"
+        }
+    ],
+    "backendTools":[
+        {
+            "id": 1000,
+            "image": "toolsIcons/nodejsIcon.png",
+            "altName": "nodejs icon",
+            "title": "Nodejs"
+        },
+        {
+            "id": 1001,
+            "image": "toolsIcons/sqlIcon.png",
+            "altName": "sql icon",
+            "title": "NoSQL"
+        },
+        {
+            "id": 1002,
+            "image": "toolsIcons/mongodbIcon.png",
+            "altName": "mongodb icon",
+            "title": "Mongodb"
+        }
+    ],
+    "gitAndOtherTools":[
+        {
+            "id": 1000,
+            "image": "toolsIcons/gitIcon.png",
+            "altName": "git icon",
+            "title": "Git"
+        },
+        {
+            "id": 1001,
+            "image": "toolsIcons/githubIcon.png",
+            "altName": "github icon",
+            "title": "Github"
+        },
+        {
+            "id": 1002,
+            "image": "toolsIcons/npmIcon.png",
+            "altName": "npm icon",
+            "title": "NPM"
+        },
+        {
+            "id": 1003,
+            "image": "toolsIcons/chromeIcon.png",
+            "altName": "chrome icon",
+            "title": "Chrome Dev Tools"
+        },
+        {
+            "id": 1004,
+            "image": "toolsIcons/vscodeIcon.png",
+            "altName": "vscode icon",
+            "title": "VS Code"
+        },
+        {
+            "id": 1005,
+            "image": "toolsIcons/postmanIcon.png",
+            "altName": "postman icon",
+            "title": "Postman"
+        },
+        {
+            "id": 1006,
+            "image": "toolsIcons/intellijIcon.png",
+            "altName": "intellij icon",
+            "title": "Intellij IDEA"
+        },
+        {
+            "id": 1007,
+            "image": "toolsIcons/gitlabIcon.png",
+            "altName": "gitlab icon",
+            "title": "Gitlab IDEA"
+        },
+        {
+            "id": 1008,
+            "image": "toolsIcons/figmaIcon.png",
+            "altName": "figma icon",
+            "title": "Figma "
         },
         {
             "id": 1009,
-            "image": "photosOfMe/photo10.jpg",
-            "altName": "Naza's Photo10"
+            "image": "toolsIcons/canvaIcon.png",
+            "altName": "canva icon",
+            "title": "Canva"
         },
         {
             "id": 1010,
-            "image": "photosOfMe/photo6.jpg",
-            "altName": "Naza's Photo11"
-        },
-        {
-            "id": 1011,
-            "image": "photosOfMe/photo9.jpg",
-            "altName": "Naza's Photo12"
-        },
-        {
-            "id": 1012,
-            "image": "photosOfMe/photo13.jpg",
-            "altName": "Naza's Photo13"
-        },
-        {
-            "id": 1013,
-            "image": "photosOfMe/photo8.jpg",
-            "altName": "Naza's Photo14"
-        },
-        {
-            "id": 1014,
-            "image": "photosOfMe/photo15.png",
-            "altName": "Naza's Photo15"
-        },
-        {
-            "id": 1015,
-            "image": "photosOfMe/photo14.jpg",
-            "altName": "Naza's Photo16"
+            "image": "toolsIcons/jiraIcon.png",
+            "altName": "jira icon",
+            "title": "Jira"
         }
     ]
 }

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const PortfolioStyle = styled.div`
-    margin: 10vh 12vw;
+    margin: 8vh 8vw;
 
     .section-title{
         font-size: 2rem;
@@ -12,9 +12,15 @@ export const PortfolioStyle = styled.div`
     }
 
     .section-title h3{
-        border-left: 3px solid #8B3611;
-        padding-left: 0.5rem;
+        color: #ffffff;
+        font-size: 4rem;
+        margin-bottom: 1rem;
+
     }
+
+    .span_item{
+     color: #33A37C;
+ }
 
     .project-container {
         display: grid;
@@ -27,7 +33,6 @@ export const PortfolioStyle = styled.div`
 
     .project-item img{
         width: 100%;
-        /* max-width: 650px; */
         height: 350px;
         border-radius: 1rem;
     }
@@ -38,25 +43,26 @@ export const PortfolioStyle = styled.div`
         justify-content: space-between;
     }
 
-    .project-title, .project-credit, .project-stack, .project-link{
+    .project-title, .project-stack, .project_description{
         margin-bottom: -1rem;
         font-weight: 900;
-        color: #333333;
+        color: #ffffff;
+        text-align: justify;
     }
 
     .project-link a{
-        border-bottom: 2px solid #521d06;
+        border-bottom: 2px solid #FF6B6B;
         border-radius: 0.2rem;
         text-decoration: none;
-        color: #8B3611;
+        color: #FF6B6B;
     }
 
     .span-item{
-        color: #521d06;
+        color: #FF6B6B;
         font-size: 1.2rem;
     }
 
-    /* Proect Thumbnail Hover */
+    /* Project Thumbnail Hover */
     .img-container {
       position: relative;
     }
@@ -94,7 +100,7 @@ export const PortfolioStyle = styled.div`
     }
     
     .link-icon a{
-      background-color: #521d06;
+      background-color: #FF6B6B;
       font-size: 16px;
       padding: 11px 15px;
       transition: all 0.5s ease-in-out;
@@ -114,8 +120,8 @@ export const PortfolioStyle = styled.div`
 @media (max-width: 1024px){
     margin: 6vh 6vw;
 
-    .section-title{
-        font-size: 1.7rem;
+      .section-title h3{
+        font-size: 3rem;
     }
 
     .project-item{
@@ -133,10 +139,10 @@ export const PortfolioStyle = styled.div`
 }
 
 @media (max-width: 960px){
-    margin: 2rem;
+    margin: 2vh 6vw;
 
-    .section-title{
-        font-size: 1.7rem;
+      .section-title h3{
+        font-size: 2.5rem;
     }
 
    .project-container {
@@ -163,10 +169,16 @@ export const PortfolioStyle = styled.div`
 }
 
 @media (max-width: 740px){
+    .section-title h3{
+    font-size: 2.2rem;
+}
+
     .project-item img{
         max-width: 650px;
         height: 300px;
     }
+
+    
 }
 
 @media (max-width: 425px){

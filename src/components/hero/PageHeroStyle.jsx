@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const PageHeroStyle = styled.div`
-    margin: 15vh 12vw;
-
     .hero-container{
+        margin: 15vh 8vw;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+
     }
 
     .description{
@@ -30,47 +30,49 @@ export const PageHeroStyle = styled.div`
     transform: translateY(0%);
   }
 }
+
+.span_item{
+    color: #33A37C;
+}
     .section-title{
         font-weight: 900;
         text-transform: uppercase;
         font-size: 1.5rem;
-        margin-bottom: -3rem;
-        border-left: 3px solid #8B3611;
         padding-left: 0.5rem;
     }
 
     .section-name{
         font-weight: 900;
-        text-transform: capitalize;
-        font-size: 6rem;
+        font-size: 5.5rem;
         line-height: 6rem;
         margin-bottom: 2rem;
-        color: #521d06;
+        color: #ffffff;
     }
 
     .section-description{
         font-weight: 900;
-        font-size: 2rem;
-        color: #333333;
+        font-size: 1.7rem;
+        color: #FF6B6B;
+        margin-top: -1rem;
     }
 
     .section-description-main{
         font-weight: 900;
-        font-size: 1.50rem;
-        color: #000000;
-        text-transform: uppercase;
+        font-size: 2rem;
+        color: #ffffff;
+        margin-top: -1rem;
     }
 
 .hero-img{
     padding: 2rem;
     animation: wiggle 5s linear infinite;
     align-items: center;
+    display: flex;
     justify-content: center;
 }
 
 .hero-img img{
     width: 100%;
-    max-width: 800px;
     height: auto;
 }
 
@@ -101,26 +103,28 @@ export const PageHeroStyle = styled.div`
 }
 
 @media (max-width: 1024px){
-    margin: 6vh 6vw;
+    margin: 6vh 0vw;
 
     .description{
         margin-right: 5.5vw;
     }
-
-    .section-title{
-    margin-bottom: -1.3rem;
     
-}
+
     .section-name{
         font-size: 4rem;
         line-height: 4rem;
-        margin-bottom: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .section-description-main{
+        font-size: 1.4rem;
+
     }
 
 }
 
 @media (max-width: 960px){
-    margin: 2rem;
+    margin: 0.1rem;
 
 .description{
     margin-right: 0vw;
@@ -133,19 +137,19 @@ export const PageHeroStyle = styled.div`
 .description{
     padding-right: 0rem;
 }
-.section-title{
-    font-size: 1.2rem;
-    margin-bottom: -1.5rem;
-}
 
 .section-name{
     font-size: 3rem;
-    margin-bottom: -1.5rem;
+    margin-bottom: 1rem;
     line-height: 4rem;
 }
 
 .section-description{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+}
+
+.section-description-main{
+        font-size: 1.2rem;
 }
 
 
@@ -157,45 +161,56 @@ margin-top: -2rem;
 
 .hero-img img{
     width: 100%;
-    max-width: 550px;
     height: auto;
 }
 }
 
 @media (max-width: 740px){
-.section-title{
-    font-size: 1.1rem;
-    margin-bottom: -1.7rem;
-}
-
 .section-name{
     font-size: 2.5rem;
-    margin-bottom: 0rem;
+    margin-bottom: 1.5rem;
     line-height: 3rem;
 }
 
 .section-description{
     font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+
 }
 
 }
 
 @media (max-width: 425px){
-margin: 2rem 1rem;
+margin: 0.1rem 0.1rem;
 
-.section-title{
-    font-size: 1rem;
-    margin-bottom: -1rem;
-}
+
+    .hero-container{
+        margin: 10vh 8vw;
+    }
 
 .section-name{
     font-size: 2rem;
-    margin-bottom: -0.5rem;
     line-height: 2.5rem;
 }
 
 .section-description{
     font-size: 1.2rem;
+}
+
+.section-description-main{
+    font-size: 1rem;
+}
+
+.hero-img img{
+    width: 25rem;
+    height: auto;
+}
+}
+
+@media (max-width: 340px) {
+    .hero-img img{
+    width: 21rem;
+    height: auto;
 }
 
 }
